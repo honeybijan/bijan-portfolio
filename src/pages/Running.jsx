@@ -29,11 +29,13 @@ const media = [
     title: "Day in the Life",
     description: "What a day in the life of a marathon runner and Ph.D. student looks like.",
     embedId: "Ud1VZJPanyg",
+    siParam: "Y7FYypxeamHrSLVu",
   },
   {
     title: "Ally Bank Olympics Commercial",
     description: "Shown as a guide for my friend, Newton.",
     embedId: "vk6m8vifpG8",
+    siParam: "KZqfL6tgRmP2wXk9",
   },
 ];
 
@@ -116,9 +118,10 @@ export default function Running() {
               >
                 <div className="aspect-video">
                   <iframe
-                    src={`https://www.youtube.com/embed/${item.embedId}`}
-                    title={item.title}
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    src={`https://www.youtube.com/embed/${item.embedId}?si=${item.siParam}`}
+                    title="YouTube video player"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerPolicy="strict-origin-when-cross-origin"
                     allowFullScreen
                     className="w-full h-full"
                   />
