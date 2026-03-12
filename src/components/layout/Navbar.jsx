@@ -9,6 +9,7 @@ const navLinks = [
   { label: "Experience", path: "/Experience" },
   { label: "Side Projects", path: "/SideProjects" },
   { label: "Running", path: "/Running" },
+  { label: "CV", path: "/CV" },
 ];
 
 export default function Navbar() {
