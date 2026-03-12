@@ -6,13 +6,13 @@ import SectionHeading from "../components/shared/SectionHeading";
 export default function SideProjects() {
   return (
     <div>
-      <section className="bg-[#c1dfd1] border-b border-[#b3d1c2]">
+      <section className="bg-[#b8cfc1] border-b border-[#b3d1c2]">
         <div className="max-w-6xl mx-auto px-6 py-16 md:py-24">
           <SectionHeading title="Side Projects" subtitle="Things I build outside of my core research." />
         </div>
       </section>
 
-      <section className="bg-[#c1dfd1] max-w-6xl mx-auto px-6 py-16">
+      <section className="bg-[#b8cfc1] max-w-6xl mx-auto px-6 py-16">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}

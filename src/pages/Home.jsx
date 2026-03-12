@@ -22,7 +22,7 @@ export default function Home() {
     <div>
       {/* Hero */}
       <section className="relative overflow-hidden">
-        <div className="absolute inset-0 bg-[#c1dfd1]" />
+        <div className="absolute inset-0 bg-[#b8cfc1]" />
         <div className="relative max-w-6xl mx-auto px-6 py-20 md:py-32">
           <div className="grid md:grid-cols-[1fr,1.2fr] gap-12 md:gap-16 items-center">
             {/* Photo */}
@@ -115,7 +115,7 @@ export default function Home() {
       </section>
 
       {/* Quick Links */}
-      <section className="bg-[#c1dfd1] max-w-6xl mx-auto px-6 py-20">
+      <section className="bg-[#b8cfc1] max-w-6xl mx-auto px-6 py-20">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -150,7 +150,7 @@ export default function Home() {
       </section>
 
       {/* Education snapshot */}
-      <section className="bg-[#c1dfd1] border-t border-[#d4e4e0]">
+      <section className="bg-[#b8cfc1] border-t border-[#d4e4e0]">
         <div className="max-w-6xl mx-auto px-6 py-20">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
