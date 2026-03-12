@@ -62,7 +62,7 @@ export default function Running() {
             <h3 className="text-xs font-semibold text-[#5a7580] uppercase tracking-wider mb-6">
               Personal Bests
             </h3>
-            <div className="bg-white rounded-xl border border-[#d4e4e0] px-6 py-2">
+            <div className="bg-[#f8faf9] rounded-xl border border-[#d4e4e0] px-6 py-2">
               {personalBests.map((pb, i) => (
                 <PersonalBest key={pb.event} event={pb.event} time={pb.time} index={i} />
               ))}
@@ -112,7 +112,7 @@ export default function Running() {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 transition={{ duration: 0.4, delay: i * 0.1 }}
-                className="bg-white rounded-xl border border-[#d4e4e0] overflow-hidden"
+                className="bg-[#f8faf9] rounded-xl border border-[#d4e4e0] overflow-hidden"
               >
                 <div className="aspect-video">
                   <iframe

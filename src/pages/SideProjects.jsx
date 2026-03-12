@@ -18,7 +18,7 @@ export default function SideProjects() {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.5 }}
-          className="bg-white rounded-2xl border border-[#d4e4e0] overflow-hidden"
+          className="bg-[#f8faf9] rounded-2xl border border-[#d4e4e0] overflow-hidden"
         >
           <div className="p-8 md:p-12">
             <div className="flex items-start justify-between gap-4">
