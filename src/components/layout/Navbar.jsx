@@ -5,8 +5,8 @@ import { motion, AnimatePresence } from "framer-motion";
 
 const navLinks = [
   { label: "Research", path: "/Research" },
-  { label: "LACCTiC", path: "/SideProjects" },
   { label: "Running", path: "/Running" },
+  { label: "LACCTiC", path: "/SideProjects" },
 ];
 
 export default function Navbar() {
@@ -46,7 +46,7 @@ export default function Navbar() {
                 : "text-[#8FA49D] hover:text-[#E9E5CA] hover:bg-[#4A6A7A]/70"
             }`}
           >
-            CV
+            About
             </Link>
             <a
             href="mailto:bijan.h.mazaheri@dartmouth.edu"
@@ -101,7 +101,7 @@ export default function Navbar() {
                     : "text-[#8FA49D] hover:text-[#E9E5CA] hover:bg-[#4A6A7A]/70"
                 }`}
               >
-                CV
+                About
               </Link>
               <a
                 href="mailto:bijan.h.mazaheri@dartmouth.edu"
