@@ -13,6 +13,7 @@ const interests = [
   "Causality",
   "Information Networks",
   "AI4Science",
+  "AI4Security",
   "Heterogenious Data",
   "Experimental Design",
 ];
