@@ -132,7 +132,7 @@ export default function Home() {
           <div className="grid md:grid-cols-3 gap-6">
             {[
               { degree: "PhD in Computing & Mathematical Sciences", school: "Caltech", years: "2017–2023" },
-              { degree: "Part IB Mathematics", school: "University of Cambridge", years: "2016–2017" },
+              { degree: "Mathematical Tripos", school: "University of Cambridge", years: "2016–2017", note: "Herchel Smith Fellow" },
               { degree: "BA in Physics & Computer Science", school: "Williams College", years: "2012–2016" },
             ].map((edu, i) => (
               <motion.div
@@ -146,6 +146,7 @@ export default function Home() {
                 <p className="text-xs font-medium text-[#4A6A7A] tracking-wide uppercase">{edu.years}</p>
                 <p className="mt-2 font-semibold text-[#243336] text-sm leading-snug">{edu.degree}</p>
                 <p className="mt-1 text-sm text-[#8FA49D]">{edu.school}</p>
+                {edu.note && <p className="mt-1 text-xs text-[#5a7580] italic">{edu.note}</p>}
               </motion.div>
             ))}
           </div>
