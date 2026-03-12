@@ -59,7 +59,7 @@ export default function Navbar() {
         {/* Mobile toggle */}
         <button
           onClick={() => setOpen(!open)}
-          className="md:hidden p-2 rounded-md hover:bg-[#243336]/50 transition-colors text-[#E9E5CA]"
+          className="md:hidden p-2 rounded-md hover:bg-[#2d3e42]/50 transition-colors text-[#e1ece3]"
         >
           {open ? <X className="w-5 h-5" /> : <Menu className="w-5 h-5" />}
         </button>
