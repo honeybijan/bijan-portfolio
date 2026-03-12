@@ -23,25 +23,25 @@ export default function Research() {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.5 }}
-            className="bg-gradient-to-br from-[#1a2625] to-[#0f1b1a] rounded-2xl border border-[#2a3f3d] p-8 md:p-12 text-center"
+            className="bg-[#111310] rounded-2xl border border-[#41A56C]/20 p-8 md:p-12 text-center"
           >
             <img 
               src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/69b2aceda872b69be2b6d807/dba1ecffa_CEDAR_3_color.png" 
               alt="CEDAR Lab Logo" 
               className="w-32 h-32 mx-auto mb-6"
             />
-            <h3 className="text-2xl font-bold text-white mb-3">The CEDAR Lab</h3>
-            <p className="text-[#5ECFAE] mb-6 max-w-2xl mx-auto">
+            <h3 className="text-2xl font-bold text-[#EFECE1] mb-3">The CEDAR Lab</h3>
+            <p className="text-[#41A56C] mb-6 max-w-2xl mx-auto">
               Causality for Experimentation, Detection, and AI Recourse
             </p>
-            <p className="text-sm text-[#b5c5c1] mb-8 max-w-3xl mx-auto leading-relaxed">
+            <p className="text-sm text-[#B5B4A9] mb-8 max-w-3xl mx-auto leading-relaxed">
               For complete information about our team, publications, news, and opportunities, visit the official CEDAR Lab website at Dartmouth Engineering.
             </p>
             <a
               href="https://cedarlab.dartmouth.edu"
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center gap-2 px-6 py-3 bg-[#5ECFAE] text-[#0f1b1a] rounded-lg font-medium hover:bg-[#4dbf96] transition-colors shadow-sm"
+              className="inline-flex items-center gap-2 px-6 py-3 bg-[#41A56C] text-[#111310] rounded-lg font-medium hover:bg-[#35844c] transition-colors shadow-sm"
             >
               Visit CEDAR Lab Website
               <ExternalLink className="w-4 h-4" />
