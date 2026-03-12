@@ -84,8 +84,8 @@ export default function Navbar() {
                     onClick={() => setOpen(false)}
                     className={`block px-3 py-2 rounded-md text-sm font-medium transition-colors ${
                       isActive
-                        ? "text-[#E9E5CA] bg-[#4A6A7A]"
-                        : "text-[#8FA49D] hover:text-[#E9E5CA] hover:bg-[#4A6A7A]/70"
+                        ? "text-[#e1ece3]"
+                        : "text-[#7c9191] hover:text-[#e1ece3]"
                     }`}
                   >
                     {link.label}
