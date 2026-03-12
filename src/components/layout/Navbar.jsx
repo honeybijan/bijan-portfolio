@@ -16,7 +16,7 @@ export default function Navbar() {
   const location = useLocation();
 
   return (
-    <nav className="fixed top-0 left-0 right-0 z-50 bg-[#49636e] border-b border-[#3a525c]">
+    <nav className="fixed top-0 left-0 right-0 z-50 bg-[#3d5763] border-b border-[#2d4349]">
       <div className="max-w-6xl mx-auto px-6 h-16 flex items-center justify-between">
         <Link to="/Home" className="text-lg font-semibold tracking-tight text-white/90">
           Bijan Mazaheri

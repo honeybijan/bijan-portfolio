@@ -6,7 +6,7 @@ import SectionHeading from "../components/shared/SectionHeading";
 export default function SideProjects() {
   return (
     <div>
-      <section className="bg-[#d4ebe4] border-b border-[#d4e4e0]">
+      <section className="bg-[#c1dfd1] border-b border-[#b3d1c2]">
         <div className="max-w-6xl mx-auto px-6 py-16 md:py-24">
           <SectionHeading title="Side Projects" subtitle="Things I build outside of my core research." />
         </div>

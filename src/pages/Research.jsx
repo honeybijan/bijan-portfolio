@@ -5,7 +5,7 @@ import { ExternalLink } from "lucide-react";
 export default function Research() {
   return (
     <div className="min-h-screen">
-      <section className="bg-[#d4ebe4]">
+      <section className="bg-[#c1dfd1]">
         <div className="max-w-4xl mx-auto px-4 py-24 md:py-32">
           <motion.div
             initial={{ opacity: 0, y: 20 }}

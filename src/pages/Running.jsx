@@ -40,7 +40,7 @@ const media = [
 export default function Running() {
   return (
     <div>
-      <section className="bg-[#d4ebe4] border-b border-[#d4e4e0]">
+      <section className="bg-[#c1dfd1] border-b border-[#b3d1c2]">
         <div className="max-w-6xl mx-auto px-6 py-16 md:py-24">
           <SectionHeading
             title="Running"
@@ -99,7 +99,7 @@ export default function Running() {
       </section>
 
       {/* Media */}
-      <section className="bg-[#e8f3ef] border-t border-[#d4e4e0]">
+      <section className="bg-[#c1dfd1] border-t border-[#b3d1c2]">
         <div className="max-w-6xl mx-auto px-6 py-16">
           <h3 className="text-xs font-semibold text-stone-400 uppercase tracking-wider mb-8">
             Media Features
