@@ -118,41 +118,6 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Quick Links */}
-      <section className="bg-[#CDDACA] max-w-6xl mx-auto px-6 py-20">
-        <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
-          transition={{ duration: 0.5 }}
-        >
-          <h2 className="text-2xl font-bold tracking-tight text-[#243336] mb-8">Explore</h2>
-        </motion.div>
-        <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-4">
-          {quickLinks.map((link, i) => (
-            <motion.div
-              key={link.label}
-              initial={{ opacity: 0, y: 20 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
-              transition={{ duration: 0.4, delay: i * 0.08 }}
-            >
-              <Link
-                to={link.path}
-                className="group block p-6 rounded-xl bg-[#E2ECE0] border border-[#8FA49D]/30 hover:border-[#4A6A7A] hover:shadow-lg hover:shadow-[#4A6A7A]/20 transition-all duration-300"
-              >
-                <link.icon className="w-5 h-5 text-[#4A6A7A] mb-3" />
-                <h3 className="font-semibold text-[#243336] group-hover:text-[#2A3C42] transition-colors">
-                  {link.label}
-                </h3>
-                <p className="text-sm text-[#8FA49D] mt-1">{link.desc}</p>
-                <ArrowRight className="w-4 h-4 text-[#8FA49D] group-hover:text-[#B26450] mt-4 transition-all group-hover:translate-x-1" />
-              </Link>
-            </motion.div>
-          ))}
-        </div>
-      </section>
-
       {/* Education snapshot */}
       <section className="bg-[#CDDACA] border-t border-[#8FA49D]/30">
         <div className="max-w-6xl mx-auto px-6 py-20">
