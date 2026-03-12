@@ -86,10 +86,6 @@ export default function Home() {
                 </a>.
               </p>
 
-              <p className="mt-3 text-[#243336] leading-relaxed max-w-xl font-medium text-sm">
-                I am recruiting postdocs and Ph.D. students.
-              </p>
-
               <div className="mt-6 flex flex-wrap gap-2">
                 {interests.map((interest) => (
                   <span
