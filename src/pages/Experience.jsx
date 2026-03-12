@@ -45,36 +45,34 @@ const industry = [
     company: "Amazon Science Causality Lab (AWS)",
     location: "Tübingen, Germany",
     period: "Sep 2022 — Feb 2023",
-    description:
-      "Paper submission to UAI 2023 on robustness to distribution shift using proxy variables. Worked with Dr. Mila Hardt, Dr. Atalanti Mastakouri, and Dr. Dominik Janzing.",
+    description: "Worked with Dr. Mila Hardt, Dr. Atalanti Mastakouri, and Dr. Dominik Janzing.",
   },
   {
     title: "Machine Learning Intern",
     company: "BioDiscovery",
     location: "El Segundo, CA",
     period: "Jun — Sep 2017",
-    description: "Cancer classification using machine learning. Worked with Dr. Soheil Shams.",
+    description: "Worked with Dr. Soheil Shams.",
   },
   {
     title: "Research Intern",
     company: "IBM Research",
     location: "Yorktown Heights, NY",
     period: "Jun — Sep 2016",
-    description:
-      "Factoring sum of products to optimize 2D wire layout. Worked with Dr. Victor Kravets.",
+    description: "Worked with Dr. Victor Kravets.",
   },
 ];
 
 export default function Experience() {
   return (
     <div>
-      <section className="bg-[#c1dfd1] border-b border-[#b3d1c2]">
+      <section className="bg-[#b8cfc1] border-b border-[#b3d1c2]">
         <div className="max-w-6xl mx-auto px-6 py-16 md:py-24">
           <SectionHeading title="Experience" subtitle="A timeline of academic and industry positions." />
         </div>
       </section>
 
-      <section className="bg-[#c1dfd1] max-w-6xl mx-auto px-6 py-16">
+      <section className="bg-[#b8cfc1] max-w-6xl mx-auto px-6 py-16">
         <div className="grid md:grid-cols-2 gap-16">
           <div>
             <h3 className="text-xs font-semibold text-[#5a7580] uppercase tracking-wider mb-8">
