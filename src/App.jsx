@@ -12,6 +12,7 @@ import Research from './pages/Research';
 import Experience from './pages/Experience';
 import SideProjects from './pages/SideProjects';
 import Running from './pages/Running';
+import CV from './pages/CV';
 
 const AuthenticatedApp = () => {
   const { isLoadingAuth, isLoadingPublicSettings, authError, navigateToLogin } = useAuth();
@@ -42,6 +43,7 @@ const AuthenticatedApp = () => {
         <Route path="/Experience" element={<Experience />} />
         <Route path="/SideProjects" element={<SideProjects />} />
         <Route path="/Running" element={<Running />} />
+        <Route path="/CV" element={<CV />} />
       </Route>
       <Route path="*" element={<PageNotFound />} />
     </Routes>
