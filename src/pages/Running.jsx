@@ -101,7 +101,7 @@ export default function Running() {
       {/* Media */}
       <section className="bg-[#CDDACA] border-t border-[#8FA49D]/30">
         <div className="max-w-6xl mx-auto px-6 py-16">
-          <h3 className="text-xs font-semibold text-stone-400 uppercase tracking-wider mb-8">
+          <h3 className="text-xs font-semibold text-[#5a7580] uppercase tracking-wider mb-8">
             Media Features
           </h3>
           <div className="grid md:grid-cols-2 gap-6">
@@ -124,8 +124,8 @@ export default function Running() {
                   />
                 </div>
                 <div className="p-5">
-                  <h4 className="font-semibold text-[#3a525c] text-sm">{item.title}</h4>
-                  <p className="mt-1 text-xs text-[#5a7580]">{item.description}</p>
+                   <h4 className="font-semibold text-[#243336] text-sm">{item.title}</h4>
+                   <p className="mt-1 text-xs text-[#49636e]">{item.description}</p>
                 </div>
               </motion.div>
             ))}
@@ -139,10 +139,10 @@ export default function Running() {
             transition={{ duration: 0.5 }}
             className="mt-8"
           >
-            <h4 className="font-semibold text-[#3a525c] text-sm mb-4">D3 Glory Days Podcast</h4>
+            <h4 className="font-semibold text-[#243336] text-sm mb-4">D3 Glory Days Podcast</h4>
             <div className="grid md:grid-cols-2 gap-4">
               <div className="bg-[#f8faf9] rounded-xl border border-[#d4e4e0] p-5">
-                <p className="text-xs text-[#5a7580] mb-3">
+                <p className="text-xs text-[#49636e] mb-3">
                   After my 2:15 marathon at Chicago — qualifying for the 2020 Olympic Trials.
                 </p>
                 <iframe
@@ -155,8 +155,8 @@ export default function Running() {
                 />
               </div>
               <div className="bg-[#f8faf9] rounded-xl border border-[#d4e4e0] p-5">
-                <p className="text-xs text-[#5a7580] mb-3">
-                  Teaming up with D3 Glory Days to use LACCTiC for fair and accurate rankings.
+                <p className="text-xs text-[#49636e] mb-3">
+                   Teaming up with D3 Glory Days to use LACCTiC for fair and accurate rankings.
                 </p>
                 <iframe
                   allow="autoplay *; encrypted-media *; fullscreen *; clipboard-write"
