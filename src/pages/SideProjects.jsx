@@ -57,12 +57,12 @@ export default function SideProjects() {
                   Consider n runners who run m races. Notice that if we had runner fitness estimates, then we could use those estimates to estimate course adjustments. Similarly, if we had course adjustments, we could use those course adjustments to estimate runner fitness. We have neither, but we can start with a guess on some runners' fitnesses using their 5k PRs, then switch back and forth finding course adjustments and estimating fitnesses until we converge. This is sometimes called an "expectation maximization" approach.
                 </p>
 
-                <div className="bg-white/50 rounded-lg p-4 border border-[#d4e4e0]">
+                <div className="border-l-2 border-[#5b9bb5] pl-4 py-2">
                   <p className="font-medium text-[#3a525c] mb-2">Step 1: Course Adjustment</p>
                   <p>
                     If you knew everyone's average 5k fitnesses f₁, f₂, …, fₙ, you could compare everyone's times t₁⁽ʲ⁾, t₂⁽ʲ⁾, …, tₙ⁽ʲ⁾ in race j. Find αⱼ that describes the ratio between times in race j and general fitnesses:
                   </p>
-                  <p className="mt-2 font-mono text-xs bg-white rounded px-3 py-2">
+                  <p className="mt-3 font-mono text-xs px-3 py-2 bg-[#f0f7f4] rounded">
                     αⱼ = (1/n) ∑ᵢ fᵢ/tᵢ⁽ʲ⁾
                   </p>
                   <p className="mt-2 text-xs">
@@ -70,12 +70,12 @@ export default function SideProjects() {
                   </p>
                 </div>
 
-                <div className="bg-white/50 rounded-lg p-4 border border-[#d4e4e0]">
+                <div className="border-l-2 border-[#5b9bb5] pl-4 py-2">
                   <p className="font-medium text-[#3a525c] mb-2">Step 2: Fitness Estimation</p>
                   <p>
                     If you knew all course adjustments (α₁, α₂, …, αₘ), you could give every runner a list of adjusted times. Average these to estimate each runner's fitness:
                   </p>
-                  <p className="mt-2 font-mono text-xs bg-white rounded px-3 py-2">
+                  <p className="mt-3 font-mono text-xs px-3 py-2 bg-[#f0f7f4] rounded">
                     fᵢ = ∑ⱼ αⱼ tᵢ⁽ʲ⁾ / m
                   </p>
                 </div>

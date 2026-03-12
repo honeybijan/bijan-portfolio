@@ -131,7 +131,7 @@ export default function Home() {
           </motion.div>
           <div className="grid md:grid-cols-3 gap-6">
             {[
-              { degree: "PhD in Computing & Mathematical Sciences", school: "Caltech", years: "2017–2023" },
+              { degree: "PhD in Computing & Mathematical Sciences", school: "Caltech", years: "2017–2023", note: "NSF Graduate Research Fellow, Amazon AI4Science Fellow" },
               { degree: "Mathematical Tripos", school: "University of Cambridge", years: "2016–2017", note: "Herchel Smith Fellow" },
               { degree: "BA in Physics & Computer Science", school: "Williams College", years: "2012–2016" },
             ].map((edu, i) => (
