@@ -77,7 +77,7 @@ export default function Experience() {
       <section className="max-w-6xl mx-auto px-6 py-16">
         <div className="grid md:grid-cols-2 gap-16">
           <div>
-            <h3 className="text-xs font-semibold text-stone-400 uppercase tracking-wider mb-8">
+            <h3 className="text-xs font-semibold text-slate-400 uppercase tracking-wider mb-8">
               Academic
             </h3>
             <div>
@@ -88,7 +88,7 @@ export default function Experience() {
           </div>
 
           <div>
-            <h3 className="text-xs font-semibold text-stone-400 uppercase tracking-wider mb-8">
+            <h3 className="text-xs font-semibold text-slate-400 uppercase tracking-wider mb-8">
               Industry
             </h3>
             <div>

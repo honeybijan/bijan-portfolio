@@ -59,7 +59,7 @@ export default function Running() {
             viewport={{ once: true }}
             transition={{ duration: 0.5 }}
           >
-            <h3 className="text-xs font-semibold text-stone-400 uppercase tracking-wider mb-6">
+            <h3 className="text-xs font-semibold text-slate-400 uppercase tracking-wider mb-6">
               Personal Bests
             </h3>
             <div className="bg-white rounded-xl border border-slate-200 px-6 py-2">
@@ -76,7 +76,7 @@ export default function Running() {
             viewport={{ once: true }}
             transition={{ duration: 0.5, delay: 0.1 }}
           >
-            <h3 className="text-xs font-semibold text-stone-400 uppercase tracking-wider mb-6">
+            <h3 className="text-xs font-semibold text-slate-400 uppercase tracking-wider mb-6">
               Career Highlights
             </h3>
             <div className="space-y-3">
@@ -141,8 +141,8 @@ export default function Running() {
           >
             <h4 className="font-semibold text-slate-900 text-sm mb-4">D3 Glory Days Podcast</h4>
             <div className="grid md:grid-cols-2 gap-4">
-              <div className="bg-white rounded-xl border border-stone-200 p-5">
-                <p className="text-xs text-stone-500 mb-3">
+              <div className="bg-white rounded-xl border border-slate-200 p-5">
+                <p className="text-xs text-slate-600 mb-3">
                   After my 2:15 marathon at Chicago — qualifying for the 2020 Olympic Trials.
                 </p>
                 <iframe
@@ -154,8 +154,8 @@ export default function Running() {
                   src="https://embed.podcasts.apple.com/us/podcast/episode-6-bijan-mazaheri-and-ryan-root/id1471391402?i=1000457234970"
                 />
               </div>
-              <div className="bg-white rounded-xl border border-stone-200 p-5">
-                <p className="text-xs text-stone-500 mb-3">
+              <div className="bg-white rounded-xl border border-slate-200 p-5">
+                <p className="text-xs text-slate-600 mb-3">
                   Teaming up with D3 Glory Days to use LACCTiC for fair and accurate rankings.
                 </p>
                 <iframe
