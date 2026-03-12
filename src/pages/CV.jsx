@@ -42,13 +42,12 @@ export default function CV() {
             </div>
             <p className="mt-4 text-[#243336] leading-relaxed">{cvData.summary}</p>
             <a
-              href="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/69b2aceda872b69be2b6d807/3af9b8f04_bijanmazaheri_cv_cw1.pdf"
-              target="_blank"
-              rel="noopener noreferrer"
+              href="/cv.pdf"
+              download
               className="mt-4 inline-flex items-center gap-2 px-4 py-2 bg-[#B26450] text-white rounded-lg text-sm font-medium hover:bg-[#9d5644] transition-colors shadow-sm"
             >
               <Download className="w-4 h-4" />
-              Download PDF
+              Download CV.
             </a>
           </div>
 
