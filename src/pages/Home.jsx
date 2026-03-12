@@ -11,7 +11,7 @@ const quickLinks = [
 
 const interests = [
   "Causality",
-  "Mixture Models",
+  "Information Networks",
   "AI4Science",
   "Experimental Design",
 ];
