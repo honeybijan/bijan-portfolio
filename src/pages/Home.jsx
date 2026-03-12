@@ -57,10 +57,16 @@ export default function Home() {
 
               <div className="mt-4 space-y-1">
                 <p className="text-lg text-[#243336] font-medium">
-                  Assistant Professor — Dartmouth Engineering
+                  Assistant Professor —{" "}
+                  <a href="https://engineering.dartmouth.edu/" target="_blank" rel="noopener noreferrer" className="text-[#B26450] hover:text-[#9d5644] underline decoration-[#B26450]/30 underline-offset-2">
+                    Dartmouth Engineering
+                  </a>
                 </p>
                 <p className="text-base text-[#243336]">
-                  Visiting Scientist — Broad Institute of MIT and Harvard
+                  Visiting Scientist —{" "}
+                  <a href="https://www.ericandwendyschmidtcenter.org/" target="_blank" rel="noopener noreferrer" className="text-[#4A6A7A] hover:text-[#2A3C42] underline decoration-[#4A6A7A]/30 underline-offset-2">
+                    Broad Institute of MIT and Harvard
+                  </a>
                 </p>
               </div>
 
