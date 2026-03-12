@@ -149,11 +149,7 @@ export default function CV() {
             </div>
           </section>
 
-          <div className="mt-8 pt-6 border-t border-[#8FA49D]/30 text-center">
-            <p className="text-sm text-[#8FA49D]">
-              To update this CV, edit the file: <code className="bg-[#e8f3ef] px-2 py-1 rounded text-xs">data/cvData.js</code>
-            </p>
-          </div>
+
         </motion.div>
       </section>
     </div>
