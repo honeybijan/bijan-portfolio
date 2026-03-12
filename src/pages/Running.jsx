@@ -52,8 +52,9 @@ export default function Running() {
       </section>
 
       {/* PBs & Highlights */}
-      <section className="bg-[#CDDACA] max-w-6xl mx-auto px-6 py-16">
-        <div className="grid md:grid-cols-[1fr,1.5fr] gap-12 md:gap-16">
+      <section className="bg-[#CDDACA]">
+        <div className="max-w-6xl mx-auto px-6 py-16">
+          <div className="grid md:grid-cols-[1fr,1.5fr] gap-12 md:gap-16">
           {/* PBs */}
           <motion.div
             initial={{ opacity: 0, y: 20 }}
