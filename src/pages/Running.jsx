@@ -90,7 +90,7 @@ export default function Running() {
                   className="flex items-start gap-3"
                 >
                   <div className="mt-2 w-1.5 h-1.5 rounded-full bg-[#5b9bb5] shrink-0" />
-                  <p className="text-sm text-[#49636e] leading-relaxed">{highlight}</p>
+                  <p className="text-sm text-[#243336] leading-relaxed font-medium">{highlight}</p>
                 </motion.div>
               ))}
             </div>
