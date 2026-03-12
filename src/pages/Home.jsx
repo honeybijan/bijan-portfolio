@@ -14,6 +14,7 @@ const interests = [
   "Information Networks",
   "AI4Science",
   "Heterogenious Data",
+  "Experimental Design",
 ];
 
 export default function Home() {
