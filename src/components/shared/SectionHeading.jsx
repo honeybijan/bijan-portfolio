@@ -10,9 +10,9 @@ export default function SectionHeading({ title, subtitle, className = "" }) {
       transition={{ duration: 0.5 }}
       className={`mb-12 ${className}`}
     >
-      <h2 className="text-3xl md:text-4xl font-bold tracking-tight text-[#3a525c]">{title}</h2>
+      <h2 className="text-3xl md:text-4xl font-bold tracking-tight text-[#243336]">{title}</h2>
       {subtitle && (
-        <p className="mt-4 text-lg text-[#49636e] max-w-3xl leading-relaxed">{subtitle}</p>
+        <p className="mt-4 text-lg text-[#243336] max-w-3xl leading-relaxed">{subtitle}</p>
       )}
     </motion.div>
   );

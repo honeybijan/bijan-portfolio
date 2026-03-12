@@ -66,13 +66,13 @@ const industry = [
 export default function Experience() {
   return (
     <div>
-      <section className="bg-[#b8cfc1] border-b border-[#b3d1c2]">
+      <section className="bg-[#CDDACA] border-b border-[#8FA49D]/30">
         <div className="max-w-6xl mx-auto px-6 py-16 md:py-24">
           <SectionHeading title="Experience" subtitle="A timeline of academic and industry positions." />
         </div>
       </section>
 
-      <section className="bg-[#b8cfc1] max-w-6xl mx-auto px-6 py-16">
+      <section className="bg-[#CDDACA] max-w-6xl mx-auto px-6 py-16">
         <div className="grid md:grid-cols-2 gap-16">
           <div>
             <h3 className="text-xs font-semibold text-[#5a7580] uppercase tracking-wider mb-8">

@@ -17,9 +17,9 @@ export default function Navbar() {
   const location = useLocation();
 
   return (
-    <nav className="fixed top-0 left-0 right-0 z-50 bg-[#3d5763] border-b border-[#2d4349]">
+    <nav className="fixed top-0 left-0 right-0 z-50 bg-[#2A3C42] border-b border-[#243336]">
       <div className="max-w-6xl mx-auto px-6 h-16 flex items-center justify-between">
-        <Link to="/Home" className="text-lg font-semibold tracking-tight text-white/90">
+        <Link to="/Home" className="text-lg font-semibold tracking-tight text-[#E9E5CA]">
           Bijan Mazaheri
         </Link>
 
@@ -33,8 +33,8 @@ export default function Navbar() {
                 to={link.path}
                 className={`px-3 py-1.5 rounded-md text-sm font-medium transition-colors ${
                   isActive
-                    ? "text-white bg-[#3a525c]"
-                    : "text-white/70 hover:text-white hover:bg-[#3a525c]/50"
+                    ? "text-[#E9E5CA] bg-[#243336]"
+                    : "text-[#8FA49D] hover:text-[#E9E5CA] hover:bg-[#243336]/50"
                 }`}
               >
                 {link.label}
@@ -43,7 +43,7 @@ export default function Navbar() {
           })}
           <a
             href="mailto:bijan.h.mazaheri@dartmouth.edu"
-            className="ml-3 px-4 py-1.5 rounded-md text-sm font-medium bg-[#3a525c] text-white hover:bg-[#2d3f47] transition-colors"
+            className="ml-3 px-4 py-1.5 rounded-md text-sm font-medium bg-[#243336] text-[#E9E5CA] hover:bg-[#243336]/80 transition-colors"
           >
             Contact
           </a>
@@ -52,7 +52,7 @@ export default function Navbar() {
         {/* Mobile toggle */}
         <button
           onClick={() => setOpen(!open)}
-          className="md:hidden p-2 rounded-md hover:bg-[#3a525c]/50 transition-colors text-white"
+          className="md:hidden p-2 rounded-md hover:bg-[#243336]/50 transition-colors text-[#E9E5CA]"
         >
           {open ? <X className="w-5 h-5" /> : <Menu className="w-5 h-5" />}
         </button>
@@ -65,7 +65,7 @@ export default function Navbar() {
             initial={{ opacity: 0, height: 0 }}
             animate={{ opacity: 1, height: "auto" }}
             exit={{ opacity: 0, height: 0 }}
-            className="md:hidden bg-[#49636e] border-b border-[#3a525c] overflow-hidden"
+            className="md:hidden bg-[#2A3C42] border-b border-[#243336] overflow-hidden"
           >
             <div className="px-6 py-4 space-y-1">
               {navLinks.map((link) => {
@@ -77,8 +77,8 @@ export default function Navbar() {
                     onClick={() => setOpen(false)}
                     className={`block px-3 py-2 rounded-md text-sm font-medium transition-colors ${
                       isActive
-                        ? "text-white bg-[#3a525c]"
-                        : "text-white/70 hover:text-white hover:bg-[#3a525c]/50"
+                        ? "text-[#E9E5CA] bg-[#243336]"
+                        : "text-[#8FA49D] hover:text-[#E9E5CA] hover:bg-[#243336]/50"
                     }`}
                   >
                     {link.label}
@@ -87,7 +87,7 @@ export default function Navbar() {
               })}
               <a
                 href="mailto:bijan.h.mazaheri@dartmouth.edu"
-                className="block px-3 py-2 rounded-md text-sm font-medium text-white hover:bg-[#3a525c]/50 transition-colors"
+                className="block px-3 py-2 rounded-md text-sm font-medium text-[#8FA49D] hover:text-[#E9E5CA] hover:bg-[#243336]/50 transition-colors"
               >
                 Contact
               </a>

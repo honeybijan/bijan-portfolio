@@ -5,7 +5,7 @@ import { Download, Mail, MapPin, Phone, Globe, Github } from "lucide-react";
 
 export default function CV() {
   return (
-    <div className="bg-[#c1dfd1] min-h-screen">
+    <div className="bg-[#CDDACA] min-h-screen">
       <section className="max-w-5xl mx-auto px-6 py-16">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
