@@ -27,8 +27,8 @@ export default function SideProjects() {
                   Sports Analytics
                 </span>
                 <h3 className="text-2xl md:text-3xl font-bold text-[#3a525c]">LACCTiC</h3>
-                <p className="mt-1 text-sm text-[#5a7580]">
-                  Leveling Across Courses and Conditions by Time Comparison
+                <p className="mt-1 text-sm text-[#5a7580] italic">
+                  Logarithmically Adjusted Cross Country Time Comparisons
                 </p>
               </div>
               <a
