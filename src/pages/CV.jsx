@@ -67,6 +67,7 @@ export default function CV() {
                   {edu.honors && <p className="text-sm text-[#8FA49D] italic">{edu.honors}</p>}
                   {edu.thesis && <p className="text-sm text-[#243336] mt-1">Thesis: {edu.thesis}</p>}
                   {edu.advisors && <p className="text-sm text-[#243336]">{edu.advisors}</p>}
+                  {edu.fellowships && <p className="text-sm text-[#8FA49D] italic">{edu.fellowships}</p>}
                   {edu.notes && <p className="text-sm text-[#8FA49D] italic">{edu.notes}</p>}
                 </div>
               ))}
