@@ -42,8 +42,8 @@ export default function Navbar() {
             to="/CV"
             className={`px-3 py-1.5 rounded-md text-sm font-medium transition-colors ${
               location.pathname === "/CV"
-                ? "text-[#E9E5CA] bg-[#4A6A7A]"
-                : "text-[#8FA49D] hover:text-[#E9E5CA] hover:bg-[#4A6A7A]/70"
+                ? "text-[#e1ece3]"
+                : "text-[#7c9191] hover:text-[#e1ece3]"
             }`}
           >
             About
