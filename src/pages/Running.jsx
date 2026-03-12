@@ -141,7 +141,7 @@ export default function Running() {
           >
             <h4 className="font-semibold text-[#3a525c] text-sm mb-4">D3 Glory Days Podcast</h4>
             <div className="grid md:grid-cols-2 gap-4">
-              <div className="bg-white rounded-xl border border-[#d4e4e0] p-5">
+              <div className="bg-[#f8faf9] rounded-xl border border-[#d4e4e0] p-5">
                 <p className="text-xs text-[#5a7580] mb-3">
                   After my 2:15 marathon at Chicago — qualifying for the 2020 Olympic Trials.
                 </p>
@@ -154,7 +154,7 @@ export default function Running() {
                   src="https://embed.podcasts.apple.com/us/podcast/episode-6-bijan-mazaheri-and-ryan-root/id1471391402?i=1000457234970"
                 />
               </div>
-              <div className="bg-white rounded-xl border border-[#d4e4e0] p-5">
+              <div className="bg-[#f8faf9] rounded-xl border border-[#d4e4e0] p-5">
                 <p className="text-xs text-[#5a7580] mb-3">
                   Teaming up with D3 Glory Days to use LACCTiC for fair and accurate rankings.
                 </p>
