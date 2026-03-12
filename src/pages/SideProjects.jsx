@@ -1,33 +1,21 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { ExternalLink } from "lucide-react";
-import SectionHeading from "../components/shared/SectionHeading";
 
 export default function SideProjects() {
   return (
-    <div>
-      <section className="bg-[#CDDACA] border-b border-[#8FA49D]/30">
-        <div className="max-w-6xl mx-auto px-6 py-16 md:py-24">
-          <SectionHeading title="Side Projects" subtitle="Things I build outside of my core research." />
-        </div>
-      </section>
-
-      <section className="bg-[#CDDACA] max-w-6xl mx-auto px-6 py-16">
+    <div className="bg-[#CDDACA] min-h-screen">
+      <section className="max-w-6xl mx-auto px-6 py-16">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
+          animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5 }}
-          className="bg-[#f8faf9] rounded-2xl border border-[#d4e4e0] overflow-hidden"
         >
-          <div className="p-8 md:p-12">
-            <div className="flex items-start justify-between gap-4">
+          <div className="mb-8">
+            <div className="flex items-start justify-between gap-4 mb-6">
               <div>
-                <span className="inline-block px-2.5 py-0.5 bg-[#d4ebe4] text-[#49636e] text-xs font-medium rounded-full mb-3">
-                  Sports Analytics
-                </span>
-                <h3 className="text-2xl md:text-3xl font-bold text-[#3a525c]">LACCTiC</h3>
-                <p className="mt-1 text-sm text-[#5a7580] italic">
+                <h1 className="text-3xl md:text-4xl font-bold text-[#243336]">LACCTiC</h1>
+                <p className="mt-2 text-base text-[#5a7580] italic">
                   Logarithmically Adjusted Cross Country Time Comparisons
                 </p>
               </div>
@@ -35,18 +23,22 @@ export default function SideProjects() {
                 href="https://www.lacctic.com/"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="shrink-0 p-3 rounded-lg border border-[#d4e4e0] text-[#5a7580] hover:text-[#5b9bb5] hover:border-[#5b9bb5] hover:bg-[#e8f3ef] transition-all"
+                className="shrink-0 px-4 py-2 rounded-lg bg-[#B26450] text-white hover:bg-[#9d5644] transition-colors flex items-center gap-2 text-sm font-medium"
               >
-                <ExternalLink className="w-5 h-5" />
+                Visit Site
+                <ExternalLink className="w-4 h-4" />
               </a>
             </div>
+          </div>
 
-            <p className="mt-6 text-[#49636e] leading-relaxed max-w-3xl">
+          <div className="bg-[#f8faf9] rounded-xl shadow-lg p-8 md:p-12">
+
+            <p className="text-[#49636e] leading-relaxed">
               A website I developed in 2021 to convert cross country performances from varying course difficulties to their track 5k equivalents. The results are used to provide sophisticated rankings and race simulations. Used by coaches and athletes across the NCAA.
             </p>
 
-            <div className="mt-8 bg-[#e8f3ef] rounded-xl p-6 border border-[#d4e4e0]">
-              <h4 className="font-semibold text-[#3a525c] mb-4">Algorithm Overview</h4>
+            <div className="mt-8">
+              <h2 className="text-2xl font-bold text-[#243336] mb-6 border-b border-[#8FA49D]/30 pb-2">Algorithm Overview</h2>
               
               <div className="space-y-4 text-sm text-[#49636e] leading-relaxed">
                 <p>
@@ -100,7 +92,6 @@ export default function SideProjects() {
                 </span>
               ))}
             </div>
-          </div>
         </motion.div>
       </section>
     </div>
