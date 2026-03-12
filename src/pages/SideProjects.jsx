@@ -34,7 +34,7 @@ export default function SideProjects() {
           <div className="bg-[#f8faf9] rounded-xl shadow-lg p-8 md:p-12">
 
             <p className="text-[#49636e] leading-relaxed">
-              A website I developed in 2021 to convert cross country performances from varying course difficulties to their track 5k equivalents. The results are used to provide sophisticated rankings and race simulations. Used by coaches and athletes across the NCAA.
+              LACCTiC normalizes cross country race times to a standard 5k track equivalent, accounting for course-specific difficulty. Built in 2021, it provides coaches and athletes across NCAA programs with fair performance comparisons, rankings, and race predictions.
             </p>
 
             <div className="mt-8">
@@ -42,11 +42,11 @@ export default function SideProjects() {
               
               <div className="space-y-4 text-sm text-[#49636e] leading-relaxed">
                 <p>
-                  The main idea behind LACCTiC is to look at how finish times change across different courses. This won't be informative for a single runner, who may have had a good and bad race. However, the <em>average</em> across many runners should give an idea of the course's relative difficulty since the same number of people will have had good races and bad races.
+                  The core insight is that individual races are noisy—one runner might have a good day, another a bad day. But aggregate finishing times across many runners reveal the course's true difficulty. By looking at average performance across different races, we can separate course effects from runner fitness.
                 </p>
 
                 <p>
-                  Consider n runners who run m races. Notice that if we had runner fitness estimates, then we could use those estimates to estimate course adjustments. Similarly, if we had course adjustments, we could use those course adjustments to estimate runner fitness. We have neither, but we can start with a guess on some runners' fitnesses using their 5k PRs, then switch back and forth finding course adjustments and estimating fitnesses until we converge. This is sometimes called an "expectation maximization" approach.
+                  The algorithm uses expectation-maximization: we estimate runner fitness from their track 5k PRs, then use those to calculate course adjustments. We alternate between refining course adjustments and updating fitness estimates until the system converges. This gives us consistent, comparable measures of performance.
                 </p>
 
                 <div className="border-l-2 border-[#5b9bb5] pl-4 py-2">
