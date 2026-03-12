@@ -42,7 +42,7 @@ export default function SideProjects() {
               
               <div className="space-y-4 text-sm text-[#49636e] leading-relaxed">
                 <p>
-                  The core insight is that individual races are noisy—one runner might have a good day, another a bad day. But when you aggregate results across many runners, their collective performance reveals the course's true difficulty. This allows us to separate course effects from individual runner fitness.
+                  The core insight is that individual races are noisy—one runner might have a good day, another a bad day. When you aggregate results across many runners, their collective performance reveals the course's true difficulty. This allows us to separate course effects from individual runner fitness.
                 </p>
 
                 <p>
