@@ -11,12 +11,12 @@ const socialLinks = [
 
 export default function Footer() {
   return (
-    <footer className="border-t border-stone-200 bg-stone-50">
+    <footer className="border-t border-slate-200 bg-slate-50">
       <div className="max-w-6xl mx-auto px-6 py-12">
         <div className="flex flex-col md:flex-row items-center justify-between gap-6">
           <div className="text-center md:text-left">
-            <p className="text-sm font-medium text-stone-900">Bijan Mazaheri</p>
-            <p className="text-xs text-stone-500 mt-1">
+            <p className="text-sm font-medium text-slate-900">Bijan Mazaheri</p>
+            <p className="text-xs text-slate-600 mt-1">
               Assistant Professor, Thayer School of Engineering at Dartmouth
             </p>
           </div>
@@ -27,7 +27,7 @@ export default function Footer() {
                 href={link.href}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="p-2 rounded-full text-stone-400 hover:text-stone-900 hover:bg-stone-100 transition-colors"
+                className="p-2 rounded-full text-slate-400 hover:text-blue-600 hover:bg-blue-50 transition-colors"
                 aria-label={link.label}
               >
                 <link.icon className="w-4 h-4" />

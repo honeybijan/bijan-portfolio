@@ -40,7 +40,7 @@ const media = [
 export default function Running() {
   return (
     <div>
-      <section className="bg-gradient-to-b from-stone-50 to-white border-b border-stone-100">
+      <section className="bg-gradient-to-b from-blue-50/30 to-white border-b border-slate-100">
         <div className="max-w-6xl mx-auto px-6 py-16 md:py-24">
           <SectionHeading
             title="Running"
@@ -62,7 +62,7 @@ export default function Running() {
             <h3 className="text-xs font-semibold text-stone-400 uppercase tracking-wider mb-6">
               Personal Bests
             </h3>
-            <div className="bg-white rounded-xl border border-stone-200 px-6 py-2">
+            <div className="bg-white rounded-xl border border-slate-200 px-6 py-2">
               {personalBests.map((pb, i) => (
                 <PersonalBest key={pb.event} event={pb.event} time={pb.time} index={i} />
               ))}
@@ -89,8 +89,8 @@ export default function Running() {
                   transition={{ duration: 0.3, delay: i * 0.04 }}
                   className="flex items-start gap-3"
                 >
-                  <div className="mt-2 w-1.5 h-1.5 rounded-full bg-amber-400 shrink-0" />
-                  <p className="text-sm text-stone-700 leading-relaxed">{highlight}</p>
+                  <div className="mt-2 w-1.5 h-1.5 rounded-full bg-cyan-500 shrink-0" />
+                  <p className="text-sm text-slate-700 leading-relaxed">{highlight}</p>
                 </motion.div>
               ))}
             </div>
@@ -99,7 +99,7 @@ export default function Running() {
       </section>
 
       {/* Media */}
-      <section className="bg-stone-50 border-t border-stone-100">
+      <section className="bg-slate-50 border-t border-slate-100">
         <div className="max-w-6xl mx-auto px-6 py-16">
           <h3 className="text-xs font-semibold text-stone-400 uppercase tracking-wider mb-8">
             Media Features
@@ -112,7 +112,7 @@ export default function Running() {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 transition={{ duration: 0.4, delay: i * 0.1 }}
-                className="bg-white rounded-xl border border-stone-200 overflow-hidden"
+                className="bg-white rounded-xl border border-slate-200 overflow-hidden"
               >
                 <div className="aspect-video">
                   <iframe
@@ -124,8 +124,8 @@ export default function Running() {
                   />
                 </div>
                 <div className="p-5">
-                  <h4 className="font-semibold text-stone-900 text-sm">{item.title}</h4>
-                  <p className="mt-1 text-xs text-stone-500">{item.description}</p>
+                  <h4 className="font-semibold text-slate-900 text-sm">{item.title}</h4>
+                  <p className="mt-1 text-xs text-slate-600">{item.description}</p>
                 </div>
               </motion.div>
             ))}
@@ -139,7 +139,7 @@ export default function Running() {
             transition={{ duration: 0.5 }}
             className="mt-8"
           >
-            <h4 className="font-semibold text-stone-900 text-sm mb-4">D3 Glory Days Podcast</h4>
+            <h4 className="font-semibold text-slate-900 text-sm mb-4">D3 Glory Days Podcast</h4>
             <div className="grid md:grid-cols-2 gap-4">
               <div className="bg-white rounded-xl border border-stone-200 p-5">
                 <p className="text-xs text-stone-500 mb-3">
@@ -176,7 +176,7 @@ export default function Running() {
               href="https://www.strava.com/athletes/19477841"
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center gap-2 px-5 py-2.5 rounded-lg border border-stone-200 text-sm font-medium text-stone-700 hover:bg-white hover:border-stone-300 transition-all"
+              className="inline-flex items-center gap-2 px-5 py-2.5 rounded-lg border border-slate-200 text-sm font-medium text-slate-700 hover:bg-white hover:border-blue-300 transition-all"
             >
               Follow on Strava →
             </a>
