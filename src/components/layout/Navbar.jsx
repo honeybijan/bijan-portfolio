@@ -21,7 +21,7 @@ export default function Navbar() {
         </Link>
 
         {/* Desktop */}
-        <div className="hidden md:flex items-center gap-1">
+        <div className="hidden md:flex items-center gap-8">
           {navLinks.map((link) => {
             const isActive = location.pathname === link.path;
             return (
@@ -38,24 +38,22 @@ export default function Navbar() {
               </Link>
             );
           })}
-          <div className="ml-3 flex items-center gap-2">
-            <Link
-              to="/CV"
-              className={`px-3 py-1.5 rounded-md text-sm font-medium transition-colors ${
-                location.pathname === "/CV"
-                  ? "text-[#E9E5CA] bg-[#4A6A7A]"
-                  : "text-[#8FA49D] hover:text-[#E9E5CA] hover:bg-[#4A6A7A]/70"
-              }`}
-            >
-              Vitae
-            </Link>
-            <a
-              href="mailto:bijan.h.mazaheri@dartmouth.edu"
-              className="px-4 py-1.5 rounded-md text-sm font-medium bg-[#B26450] text-white hover:bg-[#9d5644] transition-colors"
-            >
-              Contact
-            </a>
-          </div>
+          <Link
+            to="/CV"
+            className={`px-3 py-1.5 rounded-md text-sm font-medium transition-colors ${
+              location.pathname === "/CV"
+                ? "text-[#E9E5CA] bg-[#4A6A7A]"
+                : "text-[#8FA49D] hover:text-[#E9E5CA] hover:bg-[#4A6A7A]/70"
+            }`}
+          >
+            Vitae
+          </Link>
+          <a
+            href="mailto:bijan.h.mazaheri@dartmouth.edu"
+            className="px-4 py-1.5 rounded-md text-sm font-medium bg-[#B26450] text-white hover:bg-[#9d5644] transition-colors"
+          >
+            Contact
+          </a>
         </div>
 
         {/* Mobile toggle */}
