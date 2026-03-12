@@ -94,7 +94,7 @@ export default function Home() {
               <div className="mt-8 flex flex-wrap gap-3">
                 <a
                   href="mailto:bijan.h.mazaheri@dartmouth.edu"
-                  className="inline-flex items-center gap-2 px-5 py-2.5 bg-[#2A3C42] text-white rounded-lg text-sm font-medium hover:bg-[#243336] transition-colors"
+                  className="inline-flex items-center gap-2 px-5 py-2.5 bg-[#B26450] text-white rounded-lg text-sm font-medium hover:bg-[#9d5644] transition-colors shadow-sm"
                 >
                   <Mail className="w-4 h-4" />
                   Get in Touch
@@ -103,7 +103,7 @@ export default function Home() {
                   href="https://scholar.google.com/citations?user=DXEdM48AAAAJ"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="inline-flex items-center gap-2 px-5 py-2.5 border border-[#8FA49D] rounded-lg text-sm font-medium text-[#243336] hover:bg-white/40 transition-colors"
+                  className="inline-flex items-center gap-2 px-5 py-2.5 border border-[#4A6A7A] rounded-lg text-sm font-medium text-[#243336] hover:bg-[#E2ECE0] transition-colors"
                 >
                   Google Scholar
                   <ArrowRight className="w-3.5 h-3.5" />
@@ -135,14 +135,14 @@ export default function Home() {
             >
               <Link
                 to={link.path}
-                className="group block p-6 rounded-xl bg-white border border-[#8FA49D]/30 hover:border-[#2A3C42] hover:shadow-lg hover:shadow-[#2A3C42]/20 transition-all duration-300"
+                className="group block p-6 rounded-xl bg-[#E2ECE0] border border-[#8FA49D]/30 hover:border-[#4A6A7A] hover:shadow-lg hover:shadow-[#4A6A7A]/20 transition-all duration-300"
               >
-                <link.icon className="w-5 h-5 text-[#2A3C42] mb-3" />
+                <link.icon className="w-5 h-5 text-[#4A6A7A] mb-3" />
                 <h3 className="font-semibold text-[#243336] group-hover:text-[#2A3C42] transition-colors">
                   {link.label}
                 </h3>
                 <p className="text-sm text-[#8FA49D] mt-1">{link.desc}</p>
-                <ArrowRight className="w-4 h-4 text-[#8FA49D] group-hover:text-[#2A3C42] mt-4 transition-all group-hover:translate-x-1" />
+                <ArrowRight className="w-4 h-4 text-[#8FA49D] group-hover:text-[#B26450] mt-4 transition-all group-hover:translate-x-1" />
               </Link>
             </motion.div>
           ))}
@@ -172,9 +172,9 @@ export default function Home() {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 transition={{ duration: 0.4, delay: i * 0.08 }}
-                className="p-6 bg-white rounded-xl border border-[#8FA49D]/30"
+                className="p-6 bg-[#E2ECE0] rounded-xl border border-[#8FA49D]/30"
               >
-                <p className="text-xs font-medium text-[#2A3C42] tracking-wide uppercase">{edu.years}</p>
+                <p className="text-xs font-medium text-[#4A6A7A] tracking-wide uppercase">{edu.years}</p>
                 <p className="mt-2 font-semibold text-[#243336] text-sm leading-snug">{edu.degree}</p>
                 <p className="mt-1 text-sm text-[#8FA49D]">{edu.school}</p>
               </motion.div>
