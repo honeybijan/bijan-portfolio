@@ -10,8 +10,8 @@ export default function PersonalBest({ event, time, index }) {
       transition={{ duration: 0.3, delay: index * 0.06 }}
       className="flex items-baseline justify-between py-3 border-b border-[#e8f3ef] last:border-0"
     >
-      <span className="text-sm font-medium text-[#3a525c]">{event}</span>
-      <span className="text-sm font-mono text-[#5b9bb5]">{time}</span>
+      <span className="text-sm font-medium text-[#243336]">{event}</span>
+      <span className="text-sm font-mono text-[#4A6A7A]">{time}</span>
     </motion.div>
   );
 }
