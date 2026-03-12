@@ -11,9 +11,10 @@ const quickLinks = [
 
 const interests = [
   "Causality",
-  "Distribution Shift",
-  "Discrete Mixture Models",
-  "High-Level Data Fusion",
+  "Mixture Models",
+  "AI4Science",
+  "Experimental Design",
+  "Data Integration",
 ];
 
 export default function Home() {
