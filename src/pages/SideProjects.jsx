@@ -92,6 +92,7 @@ export default function SideProjects() {
                 </span>
               ))}
             </div>
+          </div>
         </motion.div>
       </section>
     </div>
