@@ -1,12 +1,12 @@
 import React from "react";
-import { Github, Linkedin, Twitter, Mail, ExternalLink } from "lucide-react";
+import { Github, Linkedin, Twitter, Mail, GraduationCap } from "lucide-react";
 
 const socialLinks = [
   { icon: Mail, href: "mailto:bijan.h.mazaheri@dartmouth.edu", label: "Email" },
   { icon: Twitter, href: "https://twitter.com/honey_bijan", label: "Twitter" },
   { icon: Github, href: "https://github.com/honeybijan", label: "GitHub" },
   { icon: Linkedin, href: "https://www.linkedin.com/in/bijan-mazaheri-422b36111/", label: "LinkedIn" },
-  { icon: ExternalLink, href: "https://scholar.google.com/citations?user=DXEdM48AAAAJ", label: "Google Scholar" },
+  { icon: GraduationCap, href: "https://scholar.google.com/citations?user=DXEdM48AAAAJ", label: "Google Scholar" },
 ];
 
 export default function Footer() {
