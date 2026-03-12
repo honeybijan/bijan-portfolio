@@ -145,30 +145,6 @@ export const cvData = {
       institution: "Dartmouth Engineering",
       period: "Spring 2025, 2026",
     },
-    {
-      type: "Teaching Assistant",
-      course: "Markov Chain Monte Carlo",
-      institution: "Caltech",
-      period: "Spring 2022",
-    },
-    {
-      type: "Teaching Assistant",
-      course: "Discrete Mathematics",
-      institution: "Williams",
-      period: "Fall 2015",
-    },
-    {
-      type: "Teaching Assistant",
-      course: "Electricity and Magnetism",
-      institution: "Williams",
-      period: "Spring 2015",
-    },
-    {
-      type: "Teaching Assistant",
-      course: "Introduction to Mechanics",
-      institution: "Williams",
-      period: "Fall 2013",
-    },
   ],
 
   // Add more sections as needed (publications, service, etc.)
