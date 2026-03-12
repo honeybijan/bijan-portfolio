@@ -4,7 +4,6 @@ import { Menu, X } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
 
 const navLinks = [
-  { label: "CV", path: "/CV" },
   { label: "Side Projects", path: "/SideProjects" },
   { label: "Running", path: "/Running" },
 ];
@@ -38,12 +37,24 @@ export default function Navbar() {
               </Link>
             );
           })}
-          <a
-            href="mailto:bijan.h.mazaheri@dartmouth.edu"
-            className="ml-3 px-4 py-1.5 rounded-md text-sm font-medium bg-[#B26450] text-white hover:bg-[#9d5644] transition-colors"
-          >
-            Contact
-          </a>
+          <div className="ml-3 flex items-center gap-2">
+            <Link
+              to="/CV"
+              className={`px-3 py-1.5 rounded-md text-sm font-medium transition-colors ${
+                location.pathname === "/CV"
+                  ? "text-[#E9E5CA] bg-[#4A6A7A]"
+                  : "text-[#8FA49D] hover:text-[#E9E5CA] hover:bg-[#4A6A7A]/70"
+              }`}
+            >
+              CV
+            </Link>
+            <a
+              href="mailto:bijan.h.mazaheri@dartmouth.edu"
+              className="px-4 py-1.5 rounded-md text-sm font-medium bg-[#B26450] text-white hover:bg-[#9d5644] transition-colors"
+            >
+              Contact
+            </a>
+          </div>
         </div>
 
         {/* Mobile toggle */}
@@ -82,6 +93,17 @@ export default function Navbar() {
                   </Link>
                 );
               })}
+              <Link
+                to="/CV"
+                onClick={() => setOpen(false)}
+                className={`block px-3 py-2 rounded-md text-sm font-medium transition-colors ${
+                  location.pathname === "/CV"
+                    ? "text-[#E9E5CA] bg-[#4A6A7A]"
+                    : "text-[#8FA49D] hover:text-[#E9E5CA] hover:bg-[#4A6A7A]/70"
+                }`}
+              >
+                CV
+              </Link>
               <a
                 href="mailto:bijan.h.mazaheri@dartmouth.edu"
                 className="block px-3 py-2 rounded-md text-sm font-medium bg-[#B26450] text-white hover:bg-[#9d5644] transition-colors"
