@@ -12,20 +12,20 @@ export default function TimelineItem({ item, index, isLast }) {
     >
       {/* Vertical line */}
       {!isLast && (
-        <div className="absolute left-[11px] top-3 bottom-0 w-px bg-slate-200" />
+        <div className="absolute left-[11px] top-3 bottom-0 w-px bg-[#d4e4e0]" />
       )}
       {/* Dot */}
-      <div className="absolute left-0 top-1.5 w-[23px] h-[23px] rounded-full border-2 border-slate-300 bg-white flex items-center justify-center">
-        <div className={`w-2.5 h-2.5 rounded-full ${item.current ? "bg-cyan-500" : "bg-slate-300"}`} />
+      <div className="absolute left-0 top-1.5 w-[23px] h-[23px] rounded-full border-2 border-[#d4e4e0] bg-white flex items-center justify-center">
+        <div className={`w-2.5 h-2.5 rounded-full ${item.current ? "bg-[#5b9bb5]" : "bg-[#d4e4e0]"}`} />
       </div>
 
       <div>
-        <p className="text-xs font-medium text-slate-500">{item.period}</p>
-        <h4 className="mt-1 text-base font-semibold text-slate-900">{item.title}</h4>
-        <p className="text-sm text-slate-700">{item.company}</p>
-        {item.location && <p className="text-xs text-slate-500 mt-0.5">{item.location}</p>}
+        <p className="text-xs font-medium text-[#5a7580]">{item.period}</p>
+        <h4 className="mt-1 text-base font-semibold text-[#3a525c]">{item.title}</h4>
+        <p className="text-sm text-[#49636e]">{item.company}</p>
+        {item.location && <p className="text-xs text-[#5a7580] mt-0.5">{item.location}</p>}
         {item.description && (
-          <p className="mt-2 text-sm text-slate-600 leading-relaxed">{item.description}</p>
+          <p className="mt-2 text-sm text-[#49636e] leading-relaxed">{item.description}</p>
         )}
       </div>
     </motion.div>

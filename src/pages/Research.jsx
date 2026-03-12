@@ -105,7 +105,7 @@ export default function Research() {
   return (
     <div>
       {/* Header */}
-      <section className="bg-gradient-to-b from-blue-50/30 to-white border-b border-slate-100">
+      <section className="bg-[#d4ebe4] border-b border-[#d4e4e0]">
         <div className="max-w-6xl mx-auto px-6 py-16 md:py-24">
           <SectionHeading
             title="Research"
@@ -116,7 +116,7 @@ export default function Research() {
 
       {/* Topics */}
       <section className="max-w-6xl mx-auto px-6 py-16">
-        <h3 className="text-lg font-semibold text-slate-400 uppercase tracking-wider text-xs mb-8">
+        <h3 className="text-lg font-semibold text-[#5a7580] uppercase tracking-wider text-xs mb-8">
           Research Areas
         </h3>
         <div className="grid md:grid-cols-2 gap-5">
@@ -127,22 +127,22 @@ export default function Research() {
       </section>
 
       {/* Publications */}
-      <section className="bg-slate-50 border-t border-slate-100">
+      <section className="bg-[#e8f3ef] border-t border-[#d4e4e0]">
         <div className="max-w-6xl mx-auto px-6 py-16">
           <div className="flex items-center justify-between mb-8">
-            <h3 className="text-lg font-semibold text-slate-400 uppercase tracking-wider text-xs">
+            <h3 className="text-lg font-semibold text-[#5a7580] uppercase tracking-wider text-xs">
               Publications
             </h3>
             <a
               href="https://scholar.google.com/citations?user=DXEdM48AAAAJ"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-xs font-medium text-cyan-700 hover:text-cyan-800 transition-colors"
+              className="text-xs font-medium text-[#5b9bb5] hover:text-[#49636e] transition-colors"
             >
               View all on Google Scholar →
             </a>
           </div>
-          <div className="bg-white rounded-xl border border-slate-200 px-6">
+          <div className="bg-white rounded-xl border border-[#d4e4e0] px-6">
             {publications.map((pub, i) => (
               <PublicationItem key={pub.title} pub={pub} index={i} />
             ))}
