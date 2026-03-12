@@ -1,35 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
-import { ExternalLink, FlaskConical, Target, Shield, Layers, Lightbulb } from "lucide-react";
+import { ExternalLink } from "lucide-react";
 import SectionHeading from "../components/shared/SectionHeading";
-
-const researchBranches = [
-  {
-    icon: Target,
-    title: "Experimentation",
-    description: "Theoretical design of optimal and efficient perturbations for system discovery.",
-  },
-  {
-    icon: FlaskConical,
-    title: "Detection",
-    description: "Unmasking causal heterogeneity and obscured stories in mixture models.",
-  },
-  {
-    icon: Shield,
-    title: "AI Recourse",
-    description: "Counterfactual frameworks for AI fairness, privacy, and model-sharing.",
-  },
-  {
-    icon: Layers,
-    title: "Synthesis",
-    description: "Comparing and correcting for batch effects across disparate data sources.",
-  },
-  {
-    icon: Lightbulb,
-    title: "Fundamentals",
-    description: "Establishing the universal limits of causal information recovery.",
-  },
-];
 
 export default function Research() {
   return (
@@ -43,39 +15,8 @@ export default function Research() {
         </div>
       </section>
 
-      {/* Research Branches */}
-      <section className="bg-[#CDDACA] max-w-6xl mx-auto px-6 py-16">
-        <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
-          transition={{ duration: 0.5 }}
-          className="mb-12"
-        >
-          <h3 className="text-2xl font-bold text-[#243336] mb-2">Five Branches of CEDAR</h3>
-          <p className="text-[#49636e]">Our research is organized into interconnected themes</p>
-        </motion.div>
-
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-          {researchBranches.map((branch, i) => (
-            <motion.div
-              key={branch.title}
-              initial={{ opacity: 0, y: 20 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
-              transition={{ duration: 0.4, delay: i * 0.08 }}
-              className="p-6 bg-white rounded-xl border border-[#d4e4e0] hover:border-[#4A6A7A] hover:shadow-lg transition-all"
-            >
-              <branch.icon className="w-6 h-6 text-[#4A6A7A] mb-3" />
-              <h4 className="font-semibold text-[#243336] mb-2">{branch.title}</h4>
-              <p className="text-sm text-[#49636e] leading-relaxed">{branch.description}</p>
-            </motion.div>
-          ))}
-        </div>
-      </section>
-
       {/* Lab Link */}
-      <section className="bg-[#CDDACA] border-t border-[#8FA49D]/30">
+      <section className="bg-[#CDDACA]">
         <div className="max-w-6xl mx-auto px-6 py-16">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -84,7 +25,11 @@ export default function Research() {
             transition={{ duration: 0.5 }}
             className="bg-white rounded-2xl border border-[#d4e4e0] p-8 md:p-12 text-center"
           >
-            <FlaskConical className="w-12 h-12 text-[#4A6A7A] mx-auto mb-4" />
+            <img 
+              src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/69b2aceda872b69be2b6d807/dba1ecffa_CEDAR_3_color.png" 
+              alt="CEDAR Lab Logo" 
+              className="w-32 h-32 mx-auto mb-6"
+            />
             <h3 className="text-2xl font-bold text-[#243336] mb-3">The CEDAR Lab</h3>
             <p className="text-[#49636e] mb-6 max-w-2xl mx-auto">
               Causality for Experimentation, Detection, and AI Recourse
