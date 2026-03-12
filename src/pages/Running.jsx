@@ -55,7 +55,7 @@ export default function Running() {
       <section className="bg-[#CDDACA]">
         <div className="max-w-6xl mx-auto px-6 py-16">
           <div className="grid md:grid-cols-[1fr,1.5fr] gap-12 md:gap-16">
-          {/* PBs */}
+            {/* PBs */}
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
