@@ -50,7 +50,7 @@ export default function Running() {
       </section>
 
       {/* PBs & Highlights */}
-      <section className="max-w-6xl mx-auto px-6 py-16">
+      <section className="bg-[#c1dfd1] max-w-6xl mx-auto px-6 py-16">
         <div className="grid md:grid-cols-[1fr,1.5fr] gap-12 md:gap-16">
           {/* PBs */}
           <motion.div
