@@ -74,7 +74,7 @@ export default function Experience() {
         </div>
       </section>
 
-      <section className="max-w-6xl mx-auto px-6 py-16">
+      <section className="bg-[#c1dfd1] max-w-6xl mx-auto px-6 py-16">
         <div className="grid md:grid-cols-2 gap-16">
           <div>
             <h3 className="text-xs font-semibold text-[#5a7580] uppercase tracking-wider mb-8">
