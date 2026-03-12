@@ -98,6 +98,7 @@ export default function Running() {
               ))}
             </div>
           </motion.div>
+          </div>
         </div>
       </section>
 
