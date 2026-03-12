@@ -11,7 +11,7 @@ export default function CV() {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5 }}
-          className="bg-white rounded-xl shadow-lg p-8 md:p-12"
+          className="bg-[#f8faf9] rounded-xl shadow-lg p-8 md:p-12"
         >
           {/* Header */}
           <div className="border-b border-[#8FA49D]/30 pb-6 mb-8">
