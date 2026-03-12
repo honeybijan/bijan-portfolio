@@ -11,7 +11,7 @@ export const cvData = {
     phone: "(781)-985-0881",
   },
 
-  summary: "I am interested in information-theoretical questions on causality, experimental design, and artificial intelligence. I am motivated by applications in defense and biology.",
+  summary: "I am interested in information-theoretical questions on causality, mixture models, experimental design, and artificial intelligence. I am motivated by applications in defense and biology.",
 
   education: [
     {
