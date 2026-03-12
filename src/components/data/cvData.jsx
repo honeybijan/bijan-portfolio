@@ -23,6 +23,7 @@ export const cvData = {
       period: "Oct 2017 - Aug 2023",
       thesis: "Combining Sources and Leveraging Contexts",
       advisors: "Prof. Leonard Schulman and Prof. Jeoshua (Shuki) Bruck",
+      fellowships: "NSF Graduate Research Fellow, Amazon AI4Science Fellow",
     },
     {
       institution: "Cambridge University",
