@@ -5,11 +5,9 @@ import { motion, AnimatePresence } from "framer-motion";
 
 const navLinks = [
   { label: "Home", path: "/Home" },
-  { label: "Research", path: "/Research" },
-  { label: "Experience", path: "/Experience" },
+  { label: "CV", path: "/CV" },
   { label: "Side Projects", path: "/SideProjects" },
   { label: "Running", path: "/Running" },
-  { label: "CV", path: "/CV" },
 ];
 
 export default function Navbar() {
