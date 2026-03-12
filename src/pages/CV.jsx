@@ -1,6 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
-import { cvData } from "../components/data/cvData";
+import { cvData } from "@/components/data/cvData";
 import { Download, Mail, MapPin, Phone, Globe, Github } from "lucide-react";
 
 export default function CV() {
