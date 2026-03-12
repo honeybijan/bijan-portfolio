@@ -124,40 +124,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Education snapshot */}
-      <section className="bg-[#CDDACA] border-t border-[#8FA49D]/30">
-        <div className="max-w-6xl mx-auto px-6 py-20">
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            transition={{ duration: 0.5 }}
-          >
-            <h2 className="text-2xl font-bold tracking-tight text-[#243336] mb-8">Education</h2>
-          </motion.div>
-          <div className="grid md:grid-cols-3 gap-6">
-            {[
-              { degree: "PhD in Computing & Mathematical Sciences", school: "Caltech", years: "2017–2023", note: "NSF Graduate Research Fellow, Amazon AI4Science Fellow" },
-              { degree: "Mathematical Tripos", school: "University of Cambridge", years: "2016–2017", note: "Herchel Smith Fellow" },
-              { degree: "BA in Physics & Computer Science", school: "Williams College", years: "2012–2016" },
-            ].map((edu, i) => (
-              <motion.div
-                key={edu.school}
-                initial={{ opacity: 0, y: 20 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true }}
-                transition={{ duration: 0.4, delay: i * 0.08 }}
-                className="p-6 bg-[#E2ECE0] rounded-xl border border-[#8FA49D]/30"
-              >
-                <p className="text-xs font-medium text-[#4A6A7A] tracking-wide uppercase">{edu.years}</p>
-                <p className="mt-2 font-semibold text-[#243336] text-sm leading-snug">{edu.degree}</p>
-                <p className="mt-1 text-sm text-[#8FA49D]">{edu.school}</p>
-                {edu.note && <p className="mt-1 text-xs text-[#5a7580] italic">{edu.note}</p>}
-              </motion.div>
-            ))}
-          </div>
-        </div>
-      </section>
+
     </div>
   );
 }
