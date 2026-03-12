@@ -56,17 +56,17 @@ export const cvData = {
       ],
     },
     {
+      title: "Visiting Research Scientist",
+      institution: "Broad Institute of MIT and Harvard",
+      location: "Cambridge, MA",
+      period: "Jan 2025 - Now",
+    },
+    {
       title: "Eric and Wendy Schmidt Postdoctoral Associate",
       institution: "Broad Institute of MIT and Harvard",
       location: "Cambridge, MA",
       period: "Oct 2023 - Dec 2024",
       advisor: "Prof. Caroline Uhler",
-    },
-    {
-      title: "Visiting Research Scientist",
-      institution: "Broad Institute of MIT and Harvard",
-      location: "Cambridge, MA",
-      period: "Jan 2025 - Now",
     },
   ],
 
