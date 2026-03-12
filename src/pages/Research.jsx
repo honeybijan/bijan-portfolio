@@ -30,8 +30,8 @@ export default function Research() {
               alt="CEDAR Lab Logo" 
               className="w-32 h-32 mx-auto mb-6"
             />
-            <h3 className="text-2xl font-bold text-[#EFECE1] mb-3">The CEDAR Lab</h3>
-            <p className="text-[#41A56C] mb-6 max-w-2xl mx-auto">
+            <h3 className="text-2xl font-bold text-[#EFECE1] mb-3">The <span className="text-[#41A56C]">CEDAR</span> Lab</h3>
+            <p className="text-[#C88E61] mb-6 max-w-2xl mx-auto">
               Causality for Experimentation, Detection, and AI Recourse
             </p>
             <p className="text-sm text-[#B5B4A9] mb-8 max-w-3xl mx-auto leading-relaxed">
