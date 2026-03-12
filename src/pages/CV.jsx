@@ -42,7 +42,7 @@ export default function CV() {
             </div>
             <p className="mt-4 text-[#243336] leading-relaxed">{cvData.summary}</p>
             <a
-              href="/cv.pdf"
+              href="/bijanmazaheri_cv.pdf"
               target="_blank"
               rel="noopener noreferrer"
               className="mt-4 inline-flex items-center gap-2 px-4 py-2 bg-[#B26450] text-white rounded-lg text-sm font-medium hover:bg-[#9d5644] transition-colors shadow-sm"
