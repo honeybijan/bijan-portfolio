@@ -57,7 +57,7 @@ export default function CV() {
             <h2 className="text-2xl font-bold text-[#243336] mb-6 border-b border-[#8FA49D]/30 pb-2">Education</h2>
             <div className="space-y-6">
               {cvData.education.map((edu, i) => (
-                <div key={i} className="border-l-2 border-[#5b9bb5] pl-4">
+                <div key={i} className="border-l-2 border-[#4A6A7A] pl-4">
                   <div className="flex justify-between items-start flex-wrap gap-2">
                     <h3 className="font-bold text-[#243336]">{edu.institution}</h3>
                     <span className="text-sm text-[#8FA49D] italic">{edu.period}</span>
