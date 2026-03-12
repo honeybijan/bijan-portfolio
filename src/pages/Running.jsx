@@ -141,8 +141,8 @@ export default function Running() {
           >
             <h4 className="font-semibold text-[#3a525c] text-sm mb-4">D3 Glory Days Podcast</h4>
             <div className="grid md:grid-cols-2 gap-4">
-              <div className="bg-white rounded-xl border border-slate-200 p-5">
-                <p className="text-xs text-slate-600 mb-3">
+              <div className="bg-white rounded-xl border border-[#d4e4e0] p-5">
+                <p className="text-xs text-[#5a7580] mb-3">
                   After my 2:15 marathon at Chicago — qualifying for the 2020 Olympic Trials.
                 </p>
                 <iframe
