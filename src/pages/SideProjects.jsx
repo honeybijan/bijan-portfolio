@@ -63,7 +63,7 @@ export default function SideProjects() {
                     If you knew everyone's average 5k fitnesses f₁, f₂, …, fₙ, you could compare everyone's times t₁⁽ʲ⁾, t₂⁽ʲ⁾, …, tₙ⁽ʲ⁾ in race j. Find αⱼ that describes the ratio between times in race j and general fitnesses:
                   </p>
                   <p className="mt-3 font-mono text-xs px-3 py-2 bg-[#f0f7f4] rounded">
-                    αⱼ = (1/n) ∑ᵢ fᵢ/tᵢ⁽ʲ⁾
+                    αⱼ = (1/n) Σ<sub>i</sub> fᵢ/tᵢ⁽ʲ⁾
                   </p>
                   <p className="mt-2 text-xs">
                     Multiplying a runner's time on course j by αⱼ gives the approximate 5k equivalent. Slower courses have slower times, meaning αⱼ will be smaller.
@@ -76,7 +76,7 @@ export default function SideProjects() {
                     If you knew all course adjustments (α₁, α₂, …, αₘ), you could give every runner a list of adjusted times. Average these to estimate each runner's fitness:
                   </p>
                   <p className="mt-3 font-mono text-xs px-3 py-2 bg-[#f0f7f4] rounded">
-                    fᵢ = ∑ⱼ αⱼ tᵢ⁽ʲ⁾ / m
+                    fᵢ = Σ<sub>j</sub> αⱼ tᵢ⁽ʲ⁾ / m
                   </p>
                 </div>
 
