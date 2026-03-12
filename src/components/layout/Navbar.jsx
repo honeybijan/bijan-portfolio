@@ -4,7 +4,8 @@ import { Menu, X } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
 
 const navLinks = [
-  { label: "Side Projects", path: "/SideProjects" },
+  { label: "Research", path: "/Research" },
+  { label: "LACCTiC", path: "/SideProjects" },
   { label: "Running", path: "/Running" },
 ];
 
