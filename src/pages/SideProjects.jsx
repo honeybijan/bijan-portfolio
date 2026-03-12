@@ -60,23 +60,23 @@ export default function SideProjects() {
                 <div className="border-l-2 border-[#5b9bb5] pl-4 py-2">
                   <p className="font-medium text-[#3a525c] mb-2">Step 1: Course Adjustment</p>
                   <p>
-                    If you knew everyone's average 5k fitnesses f₁, f₂, …, fₙ, you could compare everyone's times t₁<sup>(j)</sup>, t₂<sup>(j)</sup>, …, tₙ<sup>(j)</sup> in race j. Find αⱼ that describes the ratio between times in race j and general fitnesses:
+                    If you knew everyone's average 5k fitnesses f<sub>1</sub>, f<sub>2</sub>, …, f<sub>n</sub>, you could compare everyone's times t<sub>1</sub><sup>(j)</sup>, t<sub>2</sub><sup>(j)</sup>, …, t<sub>n</sub><sup>(j)</sup> in race j. Find α<sub>j</sub> that describes the ratio between times in race j and general fitnesses:
                   </p>
                   <p className="mt-3 font-mono text-xs px-3 py-2 bg-[#f0f7f4] rounded">
-                    αⱼ = (1/n) Σ<sub>i</sub> fᵢ/tᵢ<sup>(j)</sup>
+                    α<sub>j</sub> = (1/n) Σ<sub>i</sub> f<sub>i</sub>/t<sub>i</sub><sup>(j)</sup>
                   </p>
                   <p className="mt-2 text-xs">
-                    Multiplying a runner's time on course j by αⱼ gives the approximate 5k equivalent. Slower courses have slower times, meaning αⱼ will be smaller.
+                    Multiplying a runner's time on course j by α<sub>j</sub> gives the approximate 5k equivalent. Slower courses have slower times, meaning α<sub>j</sub> will be smaller.
                   </p>
                 </div>
 
                 <div className="border-l-2 border-[#5b9bb5] pl-4 py-2">
                   <p className="font-medium text-[#3a525c] mb-2">Step 2: Fitness Estimation</p>
                   <p>
-                    If you knew all course adjustments (α₁, α₂, …, αₘ), you could give every runner a list of adjusted times. Average these to estimate each runner's fitness:
+                    If you knew all course adjustments (α<sub>1</sub>, α<sub>2</sub>, …, α<sub>m</sub>), you could give every runner a list of adjusted times. Average these to estimate each runner's fitness:
                   </p>
                   <p className="mt-3 font-mono text-xs px-3 py-2 bg-[#f0f7f4] rounded">
-                    fᵢ = Σ<sub>j</sub> αⱼ tᵢ<sup>(j)</sup> / m
+                    f<sub>i</sub> = Σ<sub>j</sub> α<sub>j</sub> t<sub>i</sub><sup>(j)</sup> / m
                   </p>
                 </div>
 
