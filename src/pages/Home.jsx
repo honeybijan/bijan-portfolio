@@ -59,13 +59,13 @@ export default function Home() {
               <div className="mt-4 space-y-1">
                 <p className="text-lg text-[#243336] font-medium">
                   Assistant Professor —{" "}
-                  <a href="https://engineering.dartmouth.edu/" target="_blank" rel="noopener noreferrer" className="text-[#41A56C] hover:text-[#35844c] underline decoration-[#41A56C]/30 underline-offset-2">
+                  <a href="https://engineering.dartmouth.edu/" target="_blank" rel="noopener noreferrer" className="text-[#B26450] hover:text-[#9d5644] underline decoration-[#B26450]/30 underline-offset-2">
                     Dartmouth Engineering
                   </a>
                 </p>
                 <p className="text-base text-[#243336]">
                   Visiting Scientist —{" "}
-                  <a href="https://www.ericandwendyschmidtcenter.org/" target="_blank" rel="noopener noreferrer" className="text-[#5a7580] hover:text-[#49636e] underline decoration-[#5a7580]/30 underline-offset-2">
+                  <a href="https://www.ericandwendyschmidtcenter.org/" target="_blank" rel="noopener noreferrer" className="text-[#4A6A7A] hover:text-[#2A3C42] underline decoration-[#4A6A7A]/30 underline-offset-2">
                     Broad Institute of MIT and Harvard
                   </a>
                 </p>
@@ -78,7 +78,7 @@ export default function Home() {
 
               <p className="mt-6 text-[#243336] leading-relaxed max-w-xl">
                 I lead the{" "}
-                <a href="https://cedarlab.dartmouth.edu" target="_blank" rel="noopener noreferrer" className="text-[#41A56C] hover:text-[#35844c] underline decoration-[#41A56C]/30 underline-offset-2 font-medium">
+                <a href="https://cedarlab.dartmouth.edu" target="_blank" rel="noopener noreferrer" className="text-[#B26450] hover:text-[#9d5644] underline decoration-[#B26450]/30 underline-offset-2 font-medium">
                   Dartmouth CEDAR Lab
                 </a>
                 , where I work on information-theoretical questions pertaining to causality, experimental design, and artificial intelligence. I am applying these ideas to new computational challenges in defense and biology. I am also an internationally competitive distance runner and the developer of{" "}
