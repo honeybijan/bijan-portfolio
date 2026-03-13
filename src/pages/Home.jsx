@@ -110,7 +110,7 @@ export default function Home() {
                   href="https://scholar.google.com/citations?user=DXEdM48AAAAJ"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="inline-flex items-center gap-2 px-5 py-2.5 border border-[#4A6A7A] rounded-lg text-sm font-medium text-[#243336] hover:bg-[#E2ECE0] transition-colors"
+                  className="inline-flex items-center gap-2 px-5 py-2.5 border border-[#B26450] rounded-lg text-sm font-medium text-[#B26450] hover:bg-[#B26450] hover:text-white transition-colors"
                 >
                   Google Scholar
                   <ArrowRight className="w-3.5 h-3.5" />
