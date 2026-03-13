@@ -46,7 +46,7 @@ export default function Navbar() {
                 : "text-[#b8d4ce] hover:text-[#e1ece3]"
             }`}
           >
-            About
+            CV
             </Link>
             <a
             href="mailto:bijan.h.mazaheri@dartmouth.edu"
@@ -101,7 +101,7 @@ export default function Navbar() {
                     : "text-[#b8d4ce] hover:text-[#e1ece3]"
                 }`}
               >
-                About
+                CV
               </Link>
               <a
                 href="mailto:bijan.h.mazaheri@dartmouth.edu"
