@@ -181,7 +181,7 @@ export default function Running() {
               href="https://www.strava.com/athletes/19477841"
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center gap-2 px-5 py-2.5 rounded-lg border border-[#B26450] text-sm font-medium text-[#B26450] hover:bg-[#B26450] hover:text-white transition-all"
+              className="inline-flex items-center gap-2 px-5 py-2.5 rounded-lg bg-[#B26450] text-white text-sm font-medium hover:bg-[#9d5644] transition-colors shadow-sm"
             >
               Follow on Strava →
             </a>
