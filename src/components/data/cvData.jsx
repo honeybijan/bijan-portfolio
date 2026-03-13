@@ -28,7 +28,8 @@ export const cvData = {
     {
       institution: "Cambridge University",
       location: "Cambridge, UK",
-      degree: "Mathematical Tripos - A selection of Parts IA, IB, and II",
+      degree: "Mathematical Tripos",
+      field: "A selection of Parts IA, IB, and II",
       period: "Oct 2016 - Jun 2017",
       notes: "Supported by a Herchel Smith Fellowship",
     },
