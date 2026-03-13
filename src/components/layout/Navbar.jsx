@@ -16,7 +16,7 @@ export default function Navbar() {
   return (
     <nav className="fixed top-0 left-0 right-0 z-50 bg-[#2d3e42] border-b border-[#2d3e42]">
       <div className="max-w-6xl mx-auto px-6 h-16 flex items-center justify-between">
-        <Link to="/Home" className="text-lg font-semibold tracking-tight text-[#b8d4ce] hover:text-[#e1ece3] transition-colors">
+        <Link to="/Home" className="text-lg font-semibold tracking-tight text-[#B26450] hover:text-[#9d5644] transition-colors">
           Bijan Mazaheri
         </Link>
 
@@ -48,12 +48,6 @@ export default function Navbar() {
           >
             CV
             </Link>
-            <a
-            href="mailto:bijan.h.mazaheri@dartmouth.edu"
-            className="px-4 py-1.5 rounded-md text-sm font-medium bg-[#B26450] text-white hover:bg-[#9d5644] transition-colors"
-          >
-            Contact
-          </a>
         </div>
 
         {/* Mobile toggle */}
@@ -103,12 +97,6 @@ export default function Navbar() {
               >
                 CV
               </Link>
-              <a
-                href="mailto:bijan.h.mazaheri@dartmouth.edu"
-                className="block px-3 py-2 rounded-md text-sm font-medium bg-[#B26450] text-white hover:bg-[#9d5644] transition-colors"
-              >
-                Contact
-              </a>
             </div>
           </motion.div>
         )}
