@@ -34,7 +34,7 @@ export default function Home() {
               className="flex justify-center md:justify-start order-1 md:order-none"
             >
               <div className="relative">
-                <div className="w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden shadow-2xl shadow-[#49636e]/20 ring-4 ring-[#B26450]/50">
+                <div className="w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden shadow-2xl shadow-[#49636e]/20 ring-4 ring-[#B26450]/75">
                   <img
                     src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/69b2aceda872b69be2b6d807/fec4e1fd0_20251114-Bijan-Mazaheri-kl-71.jpg"
                     alt="Bijan Mazaheri"
