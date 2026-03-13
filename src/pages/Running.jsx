@@ -174,18 +174,20 @@ export default function Running() {
               </div>
             </div>
           </motion.div>
+        </div>
+      </section>
 
-          {/* Strava */}
-          <div className="mt-8 text-center">
-            <a
-              href="https://www.strava.com/athletes/19477841"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-flex items-center gap-2 px-5 py-2.5 rounded-lg bg-[#B26450] text-white text-sm font-medium hover:bg-[#9d5644] transition-colors shadow-sm"
-            >
-              Follow on Strava →
-            </a>
-          </div>
+      {/* Strava */}
+      <section className="bg-[#CDDACA] border-t border-[#8FA49D]/30">
+        <div className="max-w-6xl mx-auto px-6 py-12 text-center">
+          <a
+            href="https://www.strava.com/athletes/19477841"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center gap-2 px-5 py-2.5 rounded-lg bg-[#B26450] text-white text-sm font-medium hover:bg-[#9d5644] transition-colors shadow-sm"
+          >
+            Follow on Strava →
+          </a>
         </div>
       </section>
     </div>
