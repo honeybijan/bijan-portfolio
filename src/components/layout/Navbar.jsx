@@ -16,7 +16,7 @@ export default function Navbar() {
   return (
     <nav className="fixed top-0 left-0 right-0 z-50 bg-[#2d3e42] border-b border-[#2d3e42]">
       <div className="max-w-6xl mx-auto px-6 h-16 flex items-center justify-between">
-        <Link to="/Home" className="text-lg font-semibold tracking-tight text-[#B26450] hover:text-[#9d5644] transition-colors">
+        <Link to="/Home" className="text-lg font-semibold tracking-tight text-[#B26450] hover:text-[#9d5644] transition-colors px-3 py-1.5 rounded-md bg-[#3a4f53]">
           Bijan Mazaheri
         </Link>
 
