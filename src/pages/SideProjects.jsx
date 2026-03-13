@@ -23,7 +23,7 @@ export default function SideProjects() {
                 href="https://www.lacctic.com/"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="shrink-0 px-4 py-2 rounded-lg bg-[#B26450] text-white hover:bg-[#9d5644] transition-colors flex items-center gap-2 text-sm font-medium"
+                className="shrink-0 px-4 py-2 rounded-full bg-[#B26450] text-white hover:bg-[#9d5644] transition-colors flex items-center gap-2 text-sm font-medium"
               >
                 Visit Site
                 <ExternalLink className="w-4 h-4" />

@@ -41,7 +41,7 @@ export default function Research() {
               href="https://cedarlab.dartmouth.edu"
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center gap-2 px-6 py-3 bg-[#41A56C] text-[#111310] rounded-lg font-medium hover:bg-[#35844c] transition-colors shadow-sm"
+              className="inline-flex items-center gap-2 px-6 py-3 bg-[#41A56C] text-[#111310] rounded-full font-medium hover:bg-[#35844c] transition-colors shadow-sm"
             >
               Visit CEDAR Lab Website
               <ExternalLink className="w-4 h-4" />

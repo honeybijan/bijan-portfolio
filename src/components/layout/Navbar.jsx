@@ -28,7 +28,7 @@ export default function Navbar() {
               <Link
                 key={link.path}
                 to={link.path}
-                className={`px-3 py-1.5 rounded-md text-sm font-medium transition-colors ${
+                className={`px-3 py-1.5 text-sm font-medium transition-colors ${
                   isActive
                     ? "text-[#e1ece3] border-b-2 border-[#B26450]"
                     : "text-[#b8d4ce] hover:text-[#e1ece3]"
@@ -40,7 +40,7 @@ export default function Navbar() {
           })}
           <Link
             to="/CV"
-            className={`px-3 py-1.5 rounded-md text-sm font-medium transition-colors ${
+            className={`px-3 py-1.5 text-sm font-medium transition-colors ${
               location.pathname === "/CV"
                 ? "text-[#e1ece3] border-b-2 border-[#B26450]"
                 : "text-[#b8d4ce] hover:text-[#e1ece3]"
