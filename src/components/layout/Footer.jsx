@@ -27,7 +27,7 @@ export default function Footer() {
                 href={link.href}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="p-2 rounded-full text-[#5a7580] hover:text-[#49636e] hover:bg-[#d4e4e0] transition-colors"
+                className="p-2 rounded-full text-[#5a7580] hover:text-[#B26450] hover:bg-[#d4e4e0] transition-colors"
                 aria-label={link.label}
               >
                 <link.icon className="w-4 h-4" />
