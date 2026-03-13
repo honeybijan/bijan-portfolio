@@ -25,13 +25,13 @@ export default function Home() {
       <section className="relative overflow-hidden">
         <div className="absolute inset-0 bg-[#CDDACA]" />
         <div className="relative max-w-6xl mx-auto px-6 py-20 md:py-32">
-          <div className="grid md:grid-cols-[1fr,1.2fr] gap-12 md:gap-16 items-center">
+          <div className="grid md:grid-cols-[auto,1fr] gap-12 md:gap-16 items-center">
             {/* Photo */}
             <motion.div
               initial={{ opacity: 0, scale: 0.95 }}
               animate={{ opacity: 1, scale: 1 }}
               transition={{ duration: 0.6 }}
-              className="flex justify-center md:justify-end order-1 md:order-none"
+              className="flex justify-center md:justify-start order-1 md:order-none"
             >
               <div className="relative">
                 <div className="w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden shadow-2xl shadow-[#49636e]/20 ring-8 ring-[#8FA49D]">
@@ -41,7 +41,6 @@ export default function Home() {
                     className="w-full h-full object-cover"
                   />
                 </div>
-
               </div>
             </motion.div>
 
@@ -91,7 +90,7 @@ export default function Home() {
                 {interests.map((interest) => (
                   <span
                     key={interest}
-                    className="px-3 py-1 rounded-full bg-white/60 text-[#243336] text-xs font-medium"
+                    className="px-3 py-1.5 rounded-full bg-white/60 text-[#243336] text-xs font-medium"
                   >
                     {interest}
                   </span>
@@ -101,7 +100,7 @@ export default function Home() {
               <div className="mt-8 flex flex-wrap gap-3">
                 <a
                   href="mailto:bijan.h.mazaheri@dartmouth.edu"
-                  className="inline-flex items-center gap-2 px-5 py-2.5 bg-[#B26450] text-white rounded-lg text-sm font-medium hover:bg-[#9d5644] transition-colors shadow-sm"
+                  className="inline-flex items-center gap-2 px-5 py-2.5 bg-[#B26450] text-white rounded-full text-sm font-medium hover:bg-[#9d5644] transition-colors shadow-sm border border-[#243336]/20"
                 >
                   <Mail className="w-4 h-4" />
                   Get in Touch
@@ -110,7 +109,7 @@ export default function Home() {
                   href="https://scholar.google.com/citations?user=DXEdM48AAAAJ"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="inline-flex items-center gap-2 px-5 py-2.5 border border-[#243336] rounded-lg text-sm font-medium text-[#243336] hover:bg-[#243336] hover:text-white transition-colors"
+                  className="inline-flex items-center gap-2 px-5 py-2.5 border border-[#243336] rounded-full text-sm font-medium text-[#243336] hover:bg-[#243336] hover:text-white transition-colors"
                 >
                   Google Scholar
                   <ArrowRight className="w-3.5 h-3.5" />
@@ -120,8 +119,6 @@ export default function Home() {
           </div>
         </div>
       </section>
-
-
     </div>
   );
 }
