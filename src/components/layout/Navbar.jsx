@@ -31,7 +31,7 @@ export default function Navbar() {
                 className={`px-3 py-1.5 rounded-md text-sm font-medium transition-colors ${
                   isActive
                     ? "text-[#e1ece3]"
-                    : "text-[#7c9191] hover:text-[#e1ece3]"
+                    : "text-[#b8d4ce] hover:text-[#e1ece3]"
                 }`}
               >
                 {link.label}
@@ -43,7 +43,7 @@ export default function Navbar() {
             className={`px-3 py-1.5 rounded-md text-sm font-medium transition-colors ${
               location.pathname === "/CV"
                 ? "text-[#e1ece3]"
-                : "text-[#7c9191] hover:text-[#e1ece3]"
+                : "text-[#b8d4ce] hover:text-[#e1ece3]"
             }`}
           >
             About
@@ -85,7 +85,7 @@ export default function Navbar() {
                     className={`block px-3 py-2 rounded-md text-sm font-medium transition-colors ${
                       isActive
                         ? "text-[#e1ece3]"
-                        : "text-[#7c9191] hover:text-[#e1ece3]"
+                        : "text-[#b8d4ce] hover:text-[#e1ece3]"
                     }`}
                   >
                     {link.label}
@@ -98,7 +98,7 @@ export default function Navbar() {
                 className={`block px-3 py-2 rounded-md text-sm font-medium transition-colors ${
                   location.pathname === "/CV"
                     ? "text-[#e1ece3]"
-                    : "text-[#7c9191] hover:text-[#e1ece3]"
+                    : "text-[#b8d4ce] hover:text-[#e1ece3]"
                 }`}
               >
                 About
