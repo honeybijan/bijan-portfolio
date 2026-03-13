@@ -48,6 +48,16 @@ export default function Running() {
             title="Running"
             subtitle="I compete in distances ranging from 5km to 50km on track, roads, and trails. I qualified for the 2020 and 2024 USA Olympic Trials Marathons and won the 2022 USA 50km Championships."
           />
+          <div className="mt-8 text-center">
+            <a
+              href="https://www.strava.com/athletes/19477841"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-2 px-5 py-2.5 rounded-lg bg-[#B26450] text-white text-sm font-medium hover:bg-[#9d5644] transition-colors shadow-sm"
+            >
+              Follow on Strava →
+            </a>
+          </div>
         </div>
       </section>
 
@@ -174,20 +184,6 @@ export default function Running() {
               </div>
             </div>
           </motion.div>
-        </div>
-      </section>
-
-      {/* Strava */}
-      <section className="bg-[#CDDACA] border-t border-[#8FA49D]/30">
-        <div className="max-w-6xl mx-auto px-6 py-12 text-center">
-          <a
-            href="https://www.strava.com/athletes/19477841"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="inline-flex items-center gap-2 px-5 py-2.5 rounded-lg bg-[#B26450] text-white text-sm font-medium hover:bg-[#9d5644] transition-colors shadow-sm"
-          >
-            Follow on Strava →
-          </a>
         </div>
       </section>
     </div>
