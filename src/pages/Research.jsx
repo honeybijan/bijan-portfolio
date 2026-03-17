@@ -23,7 +23,7 @@ export default function Research() {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.5 }}
-            className="bg-[#111310] rounded-2xl border border-[#41A56C]/20 p-8 md:p-12 text-center"
+            className="bg-[#111310] rounded-2xl border-2 border-[#B26450] p-8 md:p-12 text-center"
           >
             <img 
               src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/69b2aceda872b69be2b6d807/dba1ecffa_CEDAR_3_color.png" 
