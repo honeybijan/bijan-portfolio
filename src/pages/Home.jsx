@@ -80,7 +80,7 @@ export default function Home() {
                 <a href="https://cedarlab.dartmouth.edu" target="_blank" rel="noopener noreferrer" className="text-[#B26450] hover:text-[#9d5644] underline decoration-[#B26450]/30 underline-offset-2 font-bold">
                   Dartmouth CEDAR Lab
                 </a>
-                , where I work on information-theoretical questions pertaining to causality, experimental design, and artificial intelligence. I am applying these ideas to new computational challenges in defense and biology. I am also an internationally competitive distance runner and the developer of{" "}
+                , where I work on information-theoretical questions pertaining to causality, experimental design, and artificial intelligence. My work addresses new computational challenges in defense and biology. I am also an internationally competitive distance runner and the developer of{" "}
                 <a href="https://www.lacctic.com/" target="_blank" rel="noopener noreferrer" className="text-[#243336] hover:text-[#49636e] underline decoration-[#243336]/30 underline-offset-2">
                   LACCTiC
                 </a>.
