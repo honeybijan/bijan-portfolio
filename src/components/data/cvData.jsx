@@ -22,7 +22,7 @@ export const cvData = {
       gpa: "3.9/4.0",
       period: "Oct 2017 - Aug 2023",
       thesis: "Combining Sources and Leveraging Contexts",
-      advisors: "Advisors: Prof. Leonard Schulman and Prof. Jeoshua (Shuki) Bruck",
+      advisors: "Advisors: Prof. Leonard Schulman and Prof. Jehoshua (Shuki) Bruck",
       fellowships: "NSF Graduate Research Fellow, Amazon AI4Science Fellow",
     },
     {
