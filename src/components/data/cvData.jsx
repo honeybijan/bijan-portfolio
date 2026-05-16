@@ -73,6 +73,12 @@ export const cvData = {
 
   industryExperience: [
     {
+      title: "Founding Research Advisor",
+      company: "Operand",
+      location: "San Francisco, CA",
+      period: "April 2026 - Now",
+    },
+    {
       title: "Applied Scientist Intern",
       company: "Amazon Research Causality Lab",
       location: "Tübingen, Germany",
