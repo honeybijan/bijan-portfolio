@@ -26,7 +26,7 @@ export default function Research() {
             className="bg-[#111310] rounded-2xl border-4 border-[#B26450] p-8 md:p-12 text-center"
           >
             <img 
-              src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/69b2aceda872b69be2b6d807/dba1ecffa_CEDAR_3_color.png" 
+              src="/images/cedar_lab_logo.png" 
               alt="CEDAR Lab Logo" 
               className="w-32 h-32 mx-auto mb-6"
             />
