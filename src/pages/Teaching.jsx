@@ -8,14 +8,14 @@ const courses = [engs105_1, engs27];
 
 export default function Teaching() {
   return (
-    <div>
+    <div className="bg-[#CDDACA] min-h-screen">
       <section className="bg-[#CDDACA] border-b border-[#8FA49D]/30">
         <div className="max-w-6xl mx-auto px-6 py-16 md:py-24">
           <SectionHeading title="Teaching" />
         </div>
       </section>
 
-      <section className="bg-[#f8faf9]">
+      <section className="bg-[#CDDACA]">
         <div className="max-w-4xl mx-auto px-6 py-16 space-y-6">
           {courses.map((course, index) => (
             <TeachingCard key={course.number} course={course} index={index} />

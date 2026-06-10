@@ -11,7 +11,7 @@ const TeachingCard = ({ course, index = 0 }) => {
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: true, margin: "-30px" }}
       transition={{ duration: 0.4, delay: index * 0.08 }}
-      className="bg-white border border-[#d4e4e0] rounded-xl p-6 md:p-8 space-y-4 hover:border-[#5b9bb5] hover:shadow-lg hover:shadow-[#5b9bb5]/20 transition-all duration-300"
+      className="bg-[#f8faf9] border border-[#d4e4e0] rounded-xl p-6 md:p-8 space-y-4 hover:border-[#5b9bb5] hover:shadow-lg hover:shadow-[#5b9bb5]/20 transition-all duration-300"
     >
       <div className="space-y-1">
         <div className="flex items-baseline gap-3">
