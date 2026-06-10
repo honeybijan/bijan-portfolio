@@ -12,6 +12,8 @@ import Research from './pages/Research';
 import SideProjects from './pages/SideProjects';
 import Running from './pages/Running';
 import CV from './pages/CV';
+import Teaching from './pages/Teaching';
+
 
 const AuthenticatedApp = () => {
   const { isLoadingAuth, isLoadingPublicSettings, authError, navigateToLogin } = useAuth();
@@ -39,6 +41,7 @@ const AuthenticatedApp = () => {
         <Route path="/" element={<Navigate to="/Home" replace />} />
         <Route path="/Home" element={<Home />} />
         <Route path="/Research" element={<Research />} />
+        <Route path="/Teaching" element={<Teaching />} />
         <Route path="/SideProjects" element={<SideProjects />} />
         <Route path="/Running" element={<Running />} />
         <Route path="/CV" element={<CV />} />
