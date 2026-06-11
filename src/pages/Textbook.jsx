@@ -67,7 +67,7 @@ export default function Textbook() {
                 </div>
                 <div className="space-y-1">
                   <p className="text-sm font-medium text-[#CDDACA]">Bijan Mazaheri</p>
-                  <p className="text-xs text-[#8FA49D]">Free PDF · 151 pages</p>
+                  <p className="text-xs text-[#8FA49D]">Free PDF · 152 pages</p>
                 </div>
               </div>
             </motion.div>
