@@ -2,6 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 import { ArrowRight, Mail, MapPin, BookOpen, FlaskConical, Trophy, Code } from "lucide-react";
+// Link is used for the textbook CTA below
 
 const quickLinks = [
   { label: "CV", path: "/CV", icon: BookOpen, desc: "Full curriculum vitae" },
@@ -36,7 +37,7 @@ export default function Home() {
               <div className="relative">
                 <div className="w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden shadow-2xl shadow-[#49636e]/20 ring-4 ring-[#B26450]/100">
                   <img
-                    src="/images/headshot.jpg"
+                    src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/69b2aceda872b69be2b6d807/fec4e1fd0_20251114-Bijan-Mazaheri-kl-71.jpg"
                     alt="Bijan Mazaheri"
                     className="w-full h-full object-cover"
                   />
@@ -105,6 +106,13 @@ export default function Home() {
                   <Mail className="w-4 h-4" />
                   Get in Touch
                 </a>
+                <Link
+                  to="/Textbook"
+                  className="inline-flex items-center gap-2 px-5 py-2.5 border border-[#243336] rounded-full text-sm font-medium text-[#243336] hover:bg-[#243336] hover:text-white transition-colors"
+                >
+                  <BookOpen className="w-4 h-4" />
+                  Free Causality Textbook
+                </Link>
                 <a
                   href="https://scholar.google.com/citations?user=DXEdM48AAAAJ"
                   target="_blank"

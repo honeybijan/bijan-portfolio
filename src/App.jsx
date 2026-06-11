@@ -8,6 +8,7 @@ import SideProjects from './pages/SideProjects';
 import Running from './pages/Running';
 import CV from './pages/CV';
 import Teaching from './pages/Teaching';
+import Textbook from './pages/Textbook';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
           <Route path="/Home" element={<Home />} />
           <Route path="/Research" element={<Research />} />
           <Route path="/Teaching" element={<Teaching />} />
+          <Route path="/Textbook" element={<Textbook />} />
           <Route path="/SideProjects" element={<SideProjects />} />
           <Route path="/Running" element={<Running />} />
           <Route path="/CV" element={<CV />} />

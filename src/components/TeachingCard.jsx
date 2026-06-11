@@ -1,8 +1,10 @@
 import React from "react";
+import { Link } from "react-router-dom";
+import { BookOpen, ArrowRight } from "lucide-react";
 import { motion } from "framer-motion";
 
 const TeachingCard = ({ course, index = 0 }) => {
-  const { number, title, institution, years, description, downloads } = course;
+  const { number, title, institution, years, description, downloads, textbookPath } = course;
   const hasDownloads = downloads?.notes || downloads?.homeworks;
 
   return (
@@ -25,6 +27,18 @@ const TeachingCard = ({ course, index = 0 }) => {
         </div>
       </div>
       <p className="text-sm text-[#49636e] leading-relaxed">{description}</p>
+      {textbookPath && (
+        <Link
+          to={textbookPath}
+          className="flex items-center justify-between gap-3 rounded-lg bg-[#243336] px-4 py-3 hover:bg-[#3a525c] transition-colors group"
+        >
+          <span className="flex items-center gap-2.5 text-sm font-medium text-[#E8DFD0]">
+            <BookOpen className="w-4 h-4 text-[#B26450]" />
+            Free textbook: <span className="italic">Principles of Causality</span>
+          </span>
+          <ArrowRight className="w-4 h-4 text-[#B26450] group-hover:translate-x-0.5 transition-transform" />
+        </Link>
+      )}
       {hasDownloads && (
         <div className="flex gap-3 pt-1">
           {downloads.notes && (
